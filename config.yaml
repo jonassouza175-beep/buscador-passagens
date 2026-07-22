@@ -38,14 +38,54 @@ destinos_brasil:
 
 # Principais hubs europeus a partir do Rio (GIG costuma ter voo direto ou 1 conexão)
 destinos_europa:
-  Lisboa: "LIS"
-  Madri: "MAD"
-  Paris: "CDG"
-  Roma: "FCO"
-  Londres: "LHR"
-  Amsterda: "AMS"
-  Frankfurt: "FRA"
-  Barcelona: "BCN"
+  # Europa Ocidental
+  Portugal_Lisboa: "LIS"
+  Espanha_Madri: "MAD"
+  Espanha_Barcelona: "BCN"
+  Franca_Paris: "CDG"
+  Italia_Roma: "FCO"
+  Italia_Milao: "MXP"
+  ReinoUnido_Londres: "LHR"
+  Holanda_Amsterda: "AMS"
+  Alemanha_Frankfurt: "FRA"
+  Alemanha_Munique: "MUC"
+  Belgica_Bruxelas: "BRU"
+  Suica_Zurique: "ZRH"
+  Austria_Viena: "VIE"
+  Irlanda_Dublin: "DUB"
+  Luxemburgo: "LUX"
+
+  # Europa do Norte
+  Dinamarca_Copenhague: "CPH"
+  Suecia_Estocolmo: "ARN"
+  Noruega_Oslo: "OSL"
+  Finlandia_Helsinque: "HEL"
+  Islandia_Reykjavik: "KEF"
+
+  # Europa Central e do Leste
+  Polonia_Varsovia: "WAW"
+  RepublicaTcheca_Praga: "PRG"
+  Hungria_Budapeste: "BUD"
+  Eslovaquia_Bratislava: "BTS"
+  Eslovenia_Liubliana: "LJU"
+  Estonia_Talin: "TLL"
+  Letonia_Riga: "RIX"
+  Lituania_Vilnius: "VNO"
+
+  # Europa Meridional / Balcãs
+  Grecia_Atenas: "ATH"
+  Croacia_Zagreb: "ZAG"
+  Romenia_Bucareste: "OTP"
+  Bulgaria_Sofia: "SOF"
+  Servia_Belgrado: "BEG"
+  Malta: "MLA"
+  Chipre_Larnaca: "LCA"
+  BosniaHerzegovina_Sarajevo: "SJJ"
+  Albania_Tirana: "TIA"
+  MacedoniaDoNorte_Skopje: "SKP"
+  Montenegro_Podgorica: "TGD"
+  Moldavia_Chisinau: "KIV"
+  Turquia_Istambul: "IST"
 
 busca:
   moeda: "brl"
