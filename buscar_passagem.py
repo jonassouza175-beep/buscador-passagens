@@ -280,14 +280,12 @@ def formatar_data_viagem(oferta):
 
 
 def montar_link_oferta(oferta):
-    """Monta o link de busca no Aviasales. Prioriza o campo 'link' se a API
-    devolver (mais curto/direto), senão monta manualmente com o formato
-    oficial de busca pré-preenchida, usando origem/destino/data que já temos."""
+    """Monta o link de busca no Aviasales, sempre a partir de origem/destino/data
+    que já temos (o campo 'link' que a própria API às vezes devolve mostrou-se
+    pouco confiável na prática - redireciona pra versão russa do site sem
+    preencher destino/data - por isso não é usado aqui)."""
     if oferta is None:
         return None
-
-    if oferta.get("link"):
-        return f"https://www.aviasales.com/search/{oferta['link']}"
 
     origem = oferta.get("origem")
     destino = oferta.get("destino")
