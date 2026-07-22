@@ -43,17 +43,19 @@ Você tem 5 arquivos/pastas prontos: `buscar_passagem.py`,
 > direto pela interface do GitHub, clicando em "Add file" → "Create
 > new file" e colando o conteúdo).
 
-## Parte 4 - Criar sua conta na Amadeus (fonte dos preços de voo)
+## Parte 4 - Criar sua conta na Travelpayouts (fonte dos preços de voo)
 
-1. Acesse **developers.amadeus.com** e clique em "Register" (é grátis).
+> A ideia original era usar a Amadeus, mas ela fechou o cadastro aberto
+> pra novos desenvolvedores (agora exige aprovação de empresa). Por
+> isso trocamos pra Travelpayouts, que tem cadastro individual e
+> instantâneo.
+
+1. Acesse **travelpayouts.com** e clique em cadastro/registro (é grátis
+   e não pede aprovação de ninguém).
 2. Confirme seu e-mail.
-3. Depois de logado, vá em **"My Self-Service Workspace"** → **"Create
-   new app"**.
-4. Dê um nome qualquer pro app (ex: "buscador-passagens").
-5. Ele vai te mostrar duas informações importantes:
-   - **API Key** (isso é o "client id")
-   - **API Secret** (isso é o "client secret")
-6. Copie os dois e guarde num lugar seguro por enquanto (vamos usar na
+3. Depois de logado, vá em **Perfil** (Profile) → **API token**.
+4. Copie o token que já aparece pronto na tela.
+5. Guarde esse token num lugar seguro por enquanto (vamos usar na
    Parte 6).
 
 ## Parte 5 - Criar uma senha especial no Gmail (pra enviar o e-mail)
@@ -74,9 +76,9 @@ O robô não pode usar sua senha normal do Gmail, ele precisa de uma
 
 ## Parte 6 - Guardar as chaves com segurança dentro do GitHub
 
-Essas informações (Amadeus + senha do Gmail) não ficam escritas em
-nenhum arquivo — elas ficam guardadas de forma criptografada dentro do
-próprio GitHub, num lugar chamado "Secrets".
+Essas informações (token da Travelpayouts + senha do Gmail) não ficam
+escritas em nenhum arquivo — elas ficam guardadas de forma
+criptografada dentro do próprio GitHub, num lugar chamado "Secrets".
 
 1. No seu repositório, clique em **Settings** (a aba lá em cima).
 2. No menu da esquerda, clique em **Secrets and variables** → **Actions**.
@@ -84,8 +86,7 @@ próprio GitHub, num lugar chamado "Secrets".
 
    | Nome exato (copie certinho) | O que colocar |
    |---|---|
-   | `AMADEUS_CLIENT_ID` | a API Key da Amadeus (Parte 4) |
-   | `AMADEUS_CLIENT_SECRET` | a API Secret da Amadeus (Parte 4) |
+   | `TRAVELPAYOUTS_TOKEN` | o token da Travelpayouts (Parte 4) |
    | `EMAIL_FROM` | seu e-mail do Gmail |
    | `EMAIL_PASSWORD` | a senha de app de 16 letras (Parte 5) |
    | `EMAIL_TO` | o e-mail que vai receber os alertas (pode ser o mesmo) |
