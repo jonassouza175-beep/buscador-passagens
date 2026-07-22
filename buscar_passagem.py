@@ -129,12 +129,12 @@ def buscar_oferta_mais_barata(token, origem, destino, moeda):
 
 def melhor_oferta_entre_origens(token, origem_lista, destino, moeda):
     """Testa cada aeroporto de origem configurado e fica com a oferta mais
-    barata encontrada, já com o aeroporto de origem anexado."""
+    barata encontrada, já com o aeroporto de origem e o destino anexados."""
     melhor = None
     for origem in origem_lista:
         oferta = buscar_oferta_mais_barata(token, origem, destino, moeda)
         if oferta is not None and (melhor is None or oferta["price"] < melhor["price"]):
-            melhor = {**oferta, "origem": origem}
+            melhor = {**oferta, "origem": origem, "destino": destino}
     return melhor
 
 
@@ -280,9 +280,32 @@ def formatar_data_viagem(oferta):
 
 
 def montar_link_oferta(oferta):
-    if oferta is None or not oferta.get("link"):
+    """Monta o link de busca no Aviasales. Prioriza o campo 'link' se a API
+    devolver (mais curto/direto), senão monta manualmente com o formato
+    oficial de busca pré-preenchida, usando origem/destino/data que já temos."""
+    if oferta is None:
         return None
-    return f"https://www.aviasales.com/search/{oferta['link']}"
+
+    if oferta.get("link"):
+        return f"https://www.aviasales.com/search/{oferta['link']}"
+
+    origem = oferta.get("origem")
+    destino = oferta.get("destino")
+    data_ida = oferta.get("departure_at")
+    if not origem or not destino or not data_ida:
+        return None
+
+    data_ida_fmt = data_ida[:10]
+    params = f"origin_iata={origem}&destination_iata={destino}&depart_date={data_ida_fmt}"
+
+    data_volta = oferta.get("return_at")
+    if data_volta:
+        params += f"&return_date={data_volta[:10]}&one_way=false"
+    else:
+        params += "&one_way=true"
+
+    params += "&adults=1&children=0&infants=0&trip_class=0&locale=pt"
+    return f"https://search.aviasales.com/flights/?{params}"
 
 
 def montar_html(resultados, alertas, promocoes):
