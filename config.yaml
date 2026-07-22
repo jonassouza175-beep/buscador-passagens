@@ -48,24 +48,17 @@ destinos_europa:
   Barcelona: "BCN"
 
 busca:
-  # Datas testadas por destino, em dias a partir de hoje.
-  # Poucas datas = menos chamadas de API (respeita cota gratuita).
-  dias_a_partir_de_hoje: [30, 60, 90, 120]
-  duracao_viagem_dias: 9        # ida e volta, usado para destinos internacionais
-  adultos: 1
-  moeda: "BRL"
+  moeda: "brl"
   # Quantos "grupos" de destino existem (um por dia da semana).
   # O script processa 1 grupo por execução, girando os 7 dias,
-  # assim TODOS os destinos são cobertos ao longo da semana
-  # sem estourar o limite de chamadas da API em um único dia.
+  # assim TODOS os destinos são cobertos ao longo da semana.
   grupos_por_semana: 7
   # Quantos preços recentes de cada destino ficam guardados pra
-  # calcular a média histórica (usada para decidir se vale investigar
-  # mais a fundo ou não gastar API com um destino em preço normal).
+  # calcular a média histórica usada nos alertas.
   tamanho_historico_media: 20
 
 alertas:
-  queda_percentual_minima: 10      # avisa se o preço caiu X% ou mais vs. o menor já visto
+  queda_percentual_minima: 10      # avisa se o preço caiu X% ou mais vs. a média histórica
   preco_maximo_brasil: 900         # também avisa se ficar abaixo desse valor (R$)
   preco_maximo_europa: 3500        # também avisa se ficar abaixo desse valor (R$)
   sempre_enviar_resumo: false      # true = recebe e-mail todo dia; false = só quando há alerta
