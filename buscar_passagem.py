@@ -1,15 +1,15 @@
 """
 Buscador de passagens - Rio de Janeiro x Brasil / Europa
-Consulta preços via API da Amadeus, compara com o histórico salvo
-e envia um e-mail quando encontra uma boa oportunidade.
+Consulta preços via Travelpayouts Data API (dados em cache da Aviasales),
+compara com o histórico salvo e envia um e-mail quando encontra uma boa
+oportunidade.
 
-Estratégia de economia de API (2 fases):
-  1) "Sonda": 1 única chamada por destino, numa data de referência.
-     Compara o preço com a MÉDIA histórica desse destino.
-  2) Só se a sonda já vier abaixo da média (ou do teto configurado),
-     o script faz a busca completa (várias datas/origens) pra achar
-     o melhor preço de verdade e decidir o alerta.
-  Destinos com preço "normal" na sonda não geram chamadas extras.
+Por que Travelpayouts e não Amadeus?
+A Amadeus fechou o portal self-service para novos desenvolvedores em
+17/07/2026. A Travelpayouts Data API é gratuita, sem exigir volume mínimo
+de usuários, e já retorna o menor preço em cache por rota em 1 única
+chamada - o que também resolve naturalmente a preocupação de gastar API
+à toa: cada destino custa só 1 chamada por execução.
 
 Rodado diariamente via GitHub Actions (ver .github/workflows/monitorar_passagens.yml).
 """
@@ -25,7 +25,7 @@ from email.mime.multipart import MIMEMultipart
 import requests
 import yaml
 
-AMADEUS_BASE = "https://test.api.amadeus.com"  # ambiente sandbox (gratuito)
+TRAVELPAYOUTS_BASE = "https://api.travelpayouts.com"
 HISTORICO_PATH = "price_history.json"
 CONFIG_PATH = "config.yaml"
 
@@ -75,41 +75,21 @@ def atualizar_historico(chave, preco_atual, historico, tamanho_max):
 
 
 # ----------------------------------------------------------------------
-# API da Amadeus
+# Travelpayouts Data API
 # ----------------------------------------------------------------------
 
-def obter_token():
-    resp = requests.post(
-        f"{AMADEUS_BASE}/v1/security/oauth2/token",
-        data={
-            "grant_type": "client_credentials",
-            "client_id": os.environ["AMADEUS_CLIENT_ID"],
-            "client_secret": os.environ["AMADEUS_CLIENT_SECRET"],
-        },
-        timeout=30,
-    )
-    resp.raise_for_status()
-    return resp.json()["access_token"]
-
-
-def buscar_menor_preco(token, origem, destino, data_ida, data_volta, adultos, moeda):
-    """Retorna o menor preço encontrado para a data testada, ou None se não achar nada."""
+def buscar_preco_cache(token, origem, destino, moeda):
+    """Consulta o menor preço em cache (achado por buscas reais de usuários
+    da Aviasales nos últimos dias) para a rota. Retorna None se não achar nada."""
     params = {
-        "originLocationCode": origem,
-        "destinationLocationCode": destino,
-        "departureDate": data_ida,
-        "adults": adultos,
-        "currencyCode": moeda,
-        "max": 5,
+        "origin": origem,
+        "destination": destino,
+        "currency": moeda,
+        "token": token,
     }
-    if data_volta:
-        params["returnDate"] = data_volta
-
-    headers = {"Authorization": f"Bearer {token}"}
     try:
         resp = requests.get(
-            f"{AMADEUS_BASE}/v2/shopping/flight-offers",
-            headers=headers,
+            f"{TRAVELPAYOUTS_BASE}/v1/prices/cheap",
             params=params,
             timeout=30,
         )
@@ -119,12 +99,26 @@ def buscar_menor_preco(token, origem, destino, data_ida, data_volta, adultos, mo
     if resp.status_code != 200:
         return None
 
-    ofertas = resp.json().get("data", [])
-    if not ofertas:
+    corpo = resp.json()
+    if not corpo.get("success"):
         return None
 
-    precos = [float(o["price"]["total"]) for o in ofertas]
-    return min(precos)
+    dados_destino = corpo.get("data", {}).get(destino)
+    if not dados_destino:
+        return None
+
+    precos = [oferta["price"] for oferta in dados_destino.values() if "price" in oferta]
+    return min(precos) if precos else None
+
+
+def melhor_preco_entre_origens(token, origem_lista, destino, moeda):
+    """Testa cada aeroporto de origem configurado e fica com o menor preço encontrado."""
+    melhor = None
+    for origem in origem_lista:
+        preco = buscar_preco_cache(token, origem, destino, moeda)
+        if preco is not None and (melhor is None or preco < melhor):
+            melhor = preco
+    return melhor
 
 
 # ----------------------------------------------------------------------
@@ -148,72 +142,18 @@ def montar_destinos_do_dia(config):
     return dict(do_dia)
 
 
-def data_para_dias(dias, tipo, duracao, config):
-    data_ida = (datetime.date.today() + datetime.timedelta(days=dias)).isoformat()
-    data_volta = None
-    if tipo == "europa":
-        data_volta = (datetime.date.today() + datetime.timedelta(days=dias + duracao)).isoformat()
-    return data_ida, data_volta
-
-
-def sondar_preco(token, origem_lista, destino_info, config):
-    """Fase 1: UMA chamada, na primeira data configurada, com a primeira origem.
-    É barato de propósito - serve só pra decidir se vale investir mais chamadas."""
-    tipo = destino_info["tipo"]
-    dias_teste = config["busca"]["dias_a_partir_de_hoje"]
-    duracao = config["busca"]["duracao_viagem_dias"]
-    adultos = config["busca"]["adultos"]
-    moeda = config["busca"]["moeda"]
-
-    origem = origem_lista[0]
-    data_ida, data_volta = data_para_dias(dias_teste[0], tipo, duracao, config)
-    return buscar_menor_preco(token, origem, destino_info["codigo"], data_ida, data_volta, adultos, moeda)
-
-
-def buscar_completo(token, origem_lista, destino_info, config):
-    """Fase 2: só roda quando a sonda já indicou preço abaixo da média.
-    Testa todas as datas/origens configuradas pra achar o melhor preço real."""
-    tipo = destino_info["tipo"]
-    dias_teste = config["busca"]["dias_a_partir_de_hoje"]
-    duracao = config["busca"]["duracao_viagem_dias"]
-    adultos = config["busca"]["adultos"]
-    moeda = config["busca"]["moeda"]
-
-    melhor_preco = None
-    for dias in dias_teste:
-        data_ida, data_volta = data_para_dias(dias, tipo, duracao, config)
-        for origem in origem_lista:
-            preco = buscar_menor_preco(token, origem, destino_info["codigo"], data_ida, data_volta, adultos, moeda)
-            if preco is not None and (melhor_preco is None or preco < melhor_preco):
-                melhor_preco = preco
-    return melhor_preco
-
-
-def vale_a_pena_investigar(preco_sonda, media, teto_absoluto, queda_percentual_minima):
-    """Decide se a sonda já justifica gastar mais chamadas de API."""
-    if preco_sonda is None:
-        return False
-    if preco_sonda <= teto_absoluto:
-        return True
-    if media is not None:
-        limite = media * (1 - queda_percentual_minima / 100)
-        if preco_sonda <= limite:
-            return True
-    return False
-
-
-def avaliar_alerta(preco_final, historico_registro, media, teto_absoluto, queda_percentual_minima):
-    """Decide o alerta final, já com o preço da busca completa (mais confiável que a sonda)."""
-    if preco_final is None:
+def avaliar_alerta(preco_atual, media, teto_absoluto, queda_percentual_minima):
+    """Decide se o preço encontrado merece um alerta por e-mail."""
+    if preco_atual is None:
         return False, None
 
     motivos = []
     if media is not None:
-        queda_pct = 100 * (media - preco_final) / media
+        queda_pct = 100 * (media - preco_atual) / media
         if queda_pct >= queda_percentual_minima:
             motivos.append(f"{queda_pct:.0f}% abaixo da média histórica (R$ {media:.0f})")
 
-    if preco_final <= teto_absoluto:
+    if preco_atual <= teto_absoluto:
         motivos.append(f"abaixo do teto configurado (R$ {teto_absoluto:.0f})")
 
     return (len(motivos) > 0), " e ".join(motivos)
@@ -247,10 +187,8 @@ def montar_html(resultados, alertas):
     for r in resultados:
         destaque = ' style="color:#0a7d2c;font-weight:bold;"' if r["alerta"] else ""
         preco_fmt = f"R$ {r['preco']:.0f}" if r["preco"] is not None else "sem dados"
-        investigado = "sim" if r["investigado"] else "não (preço normal na sonda)"
         linhas.append(
-            f"<tr><td>{r['nome']}</td><td{destaque}>{preco_fmt}</td>"
-            f"<td>{r['motivo'] or '-'}</td><td>{investigado}</td></tr>"
+            f"<tr><td>{r['nome']}</td><td{destaque}>{preco_fmt}</td><td>{r['motivo'] or '-'}</td></tr>"
         )
 
     tabela = "\n".join(linhas)
@@ -265,13 +203,12 @@ def montar_html(resultados, alertas):
     <h2>Buscador de passagens - resumo do dia</h2>
     {resumo_alerta}
     <table border="1" cellpadding="6" cellspacing="0">
-      <tr><th>Destino</th><th>Menor preço encontrado</th><th>Motivo do alerta</th><th>Busca completa?</th></tr>
+      <tr><th>Destino</th><th>Menor preço encontrado</th><th>Motivo do alerta</th></tr>
       {tabela}
     </table>
     <p style="color:#888;font-size:12px;">
-      Preços via Amadeus (ambiente de teste) - confirme sempre no site da companhia antes de comprar.<br>
-      "Busca completa" = destinos onde a sonda inicial já indicou preço abaixo da média,
-      por isso o script investiu mais chamadas de API pra achar o melhor preço.
+      Preços via Travelpayouts/Aviasales (dados em cache de buscas recentes de usuários,
+      podem ter até alguns dias) - confirme sempre no site da companhia antes de comprar.
     </p>
     </body></html>
     """
@@ -285,16 +222,15 @@ def main():
     config = carregar_config()
     historico = carregar_historico()
     origem_lista = config["origem"]["aeroportos"]
+    moeda = config["busca"]["moeda"]
     tamanho_max_media = config["busca"].get("tamanho_historico_media", 20)
     queda_percentual_minima = config["alertas"]["queda_percentual_minima"]
+    token = os.environ["TRAVELPAYOUTS_TOKEN"]
 
-    token = obter_token()
     destinos_hoje = montar_destinos_do_dia(config)
 
     resultados = []
     alertas = []
-    chamadas_sonda = 0
-    chamadas_completas = 0
 
     for chave, info in destinos_hoje.items():
         teto_absoluto = (
@@ -304,40 +240,23 @@ def main():
         )
         media = media_historica(historico, chave)
 
-        preco_sonda = sondar_preco(token, origem_lista, info, config)
-        chamadas_sonda += 1
+        preco = melhor_preco_entre_origens(token, origem_lista, info["codigo"], moeda)
 
-        investigar = vale_a_pena_investigar(preco_sonda, media, teto_absoluto, queda_percentual_minima)
-        # Sempre investiga na primeira vez (sem histórico ainda) pra criar a base de comparação.
         primeira_vez = media is None
-        investigar_final = investigar or primeira_vez
-
-        if investigar_final:
-            preco_final = buscar_completo(token, origem_lista, info, config)
-            chamadas_completas += 1
-        else:
-            preco_final = preco_sonda  # não vale gastar mais API, fica com o preço da sonda
-
         eh_alerta, motivo = (False, None)
         if not primeira_vez:
-            eh_alerta, motivo = avaliar_alerta(preco_final, historico.get(chave), media, teto_absoluto, queda_percentual_minima)
+            eh_alerta, motivo = avaliar_alerta(preco, media, teto_absoluto, queda_percentual_minima)
 
-        resultados.append({
-            "nome": info["nome"],
-            "preco": preco_final,
-            "alerta": eh_alerta,
-            "motivo": motivo,
-            "investigado": investigar_final,
-        })
+        resultados.append({"nome": info["nome"], "preco": preco, "alerta": eh_alerta, "motivo": motivo})
         if eh_alerta:
             alertas.append(chave)
 
-        if preco_final is not None:
-            atualizar_historico(chave, preco_final, historico, tamanho_max_media)
+        if preco is not None:
+            atualizar_historico(chave, preco, historico, tamanho_max_media)
 
     salvar_historico(historico)
 
-    print(f"Sondas: {chamadas_sonda} | Buscas completas: {chamadas_completas} | Alertas: {len(alertas)}")
+    print(f"Destinos checados hoje: {len(destinos_hoje)} | Alertas: {len(alertas)}")
 
     deve_enviar = bool(alertas) or config["alertas"]["sempre_enviar_resumo"]
     if deve_enviar:
