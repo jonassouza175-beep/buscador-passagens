@@ -2,35 +2,67 @@
   "BR-MA": {
     "precos_recentes": [
       791,
+      791,
       791
     ],
     "menor_preco": 791,
     "ultimo_preco": 791,
-    "ultima_atualizacao": "2026-07-22"
+    "ultima_atualizacao": "2026-07-22",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-10-15T05:40:00-03:00",
+      "data_volta": "2026-10-22T05:15:00-03:00",
+      "companhia": "JJ",
+      "numero_voo": 3022
+    }
   },
   "BR-PE": {
     "precos_recentes": [
+      1025,
       1025,
       1025
     ],
     "menor_preco": 1025,
     "ultimo_preco": 1025,
-    "ultima_atualizacao": "2026-07-22"
+    "ultima_atualizacao": "2026-07-22",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-08-28T05:45:00-03:00",
+      "data_volta": "2026-08-31T10:00:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4450
+    }
   },
   "EU-Suica_Zurique": {
     "precos_recentes": [
+      5363,
       5363
     ],
     "menor_preco": 5363,
     "ultimo_preco": 5363,
-    "ultima_atualizacao": "2026-07-22"
+    "ultima_atualizacao": "2026-07-22",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-09-22T22:10:00-03:00",
+      "data_volta": "2026-10-06T19:25:00+02:00",
+      "companhia": "AF",
+      "numero_voo": 443
+    }
   },
   "EU-Servia_Belgrado": {
     "precos_recentes": [
+      6538,
       6538
     ],
     "menor_preco": 6538,
     "ultimo_preco": 6538,
-    "ultima_atualizacao": "2026-07-22"
+    "ultima_atualizacao": "2026-07-22",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-11-07T15:35:00-03:00",
+      "data_volta": "2026-11-21T13:30:00+01:00",
+      "companhia": "AZ",
+      "numero_voo": 673
+    }
   }
 }
