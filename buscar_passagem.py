@@ -21,6 +21,7 @@ import smtplib
 import datetime
 import xml.etree.ElementTree as ET
 import email.utils
+import urllib.parse
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -280,10 +281,11 @@ def formatar_data_viagem(oferta):
 
 
 def montar_link_oferta(oferta):
-    """Monta o link de busca no Aviasales, sempre a partir de origem/destino/data
-    que já temos (o campo 'link' que a própria API às vezes devolve mostrou-se
-    pouco confiável na prática - redireciona pra versão russa do site sem
-    preencher destino/data - por isso não é usado aqui)."""
+    """Monta um link de busca no Google Flights a partir de origem/destino/data
+    que já temos. Trocamos da Aviasales pro Google Flights porque a Aviasales
+    não tem versão brasileira própria e redirecionava pro domínio russo sem
+    preencher destino/data direito - problema de mercado do próprio site, não
+    algo que dava pra corrigir só ajustando parâmetro de URL."""
     if oferta is None:
         return None
 
@@ -294,16 +296,14 @@ def montar_link_oferta(oferta):
         return None
 
     data_ida_fmt = data_ida[:10]
-    params = f"origin_iata={origem}&destination_iata={destino}&depart_date={data_ida_fmt}"
+    consulta = f"voos de {origem} para {destino} em {data_ida_fmt}"
 
     data_volta = oferta.get("return_at")
     if data_volta:
-        params += f"&return_date={data_volta[:10]}&one_way=false"
-    else:
-        params += "&one_way=true"
+        consulta += f" volta em {data_volta[:10]}"
 
-    params += "&adults=1&children=0&infants=0&trip_class=0&locale=pt"
-    return f"https://search.aviasales.com/flights/?{params}"
+    consulta_url = urllib.parse.quote(consulta)
+    return f"https://www.google.com/travel/flights?q={consulta_url}"
 
 
 def montar_html(resultados, alertas, promocoes):
