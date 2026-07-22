@@ -57,7 +57,8 @@ def media_historica(historico, chave):
     return statistics.mean(precos) if precos else None
 
 
-def atualizar_historico(chave, preco_atual, historico, tamanho_max):
+def atualizar_historico(chave, oferta, historico, tamanho_max):
+    preco_atual = oferta["price"]
     registro = historico.get(chave, {"precos_recentes": [], "menor_preco": None})
     precos = registro.get("precos_recentes", [])
     precos.append(preco_atual)
@@ -71,6 +72,13 @@ def atualizar_historico(chave, preco_atual, historico, tamanho_max):
 
     registro["ultimo_preco"] = preco_atual
     registro["ultima_atualizacao"] = datetime.date.today().isoformat()
+    registro["ultima_oferta"] = {
+        "origem": oferta.get("origem"),
+        "data_ida": oferta.get("departure_at"),
+        "data_volta": oferta.get("return_at"),
+        "companhia": oferta.get("airline"),
+        "numero_voo": oferta.get("flight_number"),
+    }
     historico[chave] = registro
 
 
@@ -78,9 +86,10 @@ def atualizar_historico(chave, preco_atual, historico, tamanho_max):
 # Travelpayouts Data API
 # ----------------------------------------------------------------------
 
-def buscar_preco_cache(token, origem, destino, moeda):
-    """Consulta o menor preço em cache (achado por buscas reais de usuários
-    da Aviasales nos últimos dias) para a rota. Retorna None se não achar nada."""
+def buscar_oferta_mais_barata(token, origem, destino, moeda):
+    """Consulta a oferta mais barata em cache (achada por buscas reais de usuários
+    da Aviasales nos últimos dias) para a rota. Retorna o dicionário completo da
+    oferta (preco, datas, companhia) ou None se não achar nada."""
     params = {
         "origin": origem,
         "destination": destino,
@@ -107,17 +116,21 @@ def buscar_preco_cache(token, origem, destino, moeda):
     if not dados_destino:
         return None
 
-    precos = [oferta["price"] for oferta in dados_destino.values() if "price" in oferta]
-    return min(precos) if precos else None
+    ofertas = [oferta for oferta in dados_destino.values() if "price" in oferta]
+    if not ofertas:
+        return None
+
+    return min(ofertas, key=lambda o: o["price"])
 
 
-def melhor_preco_entre_origens(token, origem_lista, destino, moeda):
-    """Testa cada aeroporto de origem configurado e fica com o menor preço encontrado."""
+def melhor_oferta_entre_origens(token, origem_lista, destino, moeda):
+    """Testa cada aeroporto de origem configurado e fica com a oferta mais
+    barata encontrada, já com o aeroporto de origem anexado."""
     melhor = None
     for origem in origem_lista:
-        preco = buscar_preco_cache(token, origem, destino, moeda)
-        if preco is not None and (melhor is None or preco < melhor):
-            melhor = preco
+        oferta = buscar_oferta_mais_barata(token, origem, destino, moeda)
+        if oferta is not None and (melhor is None or oferta["price"] < melhor["price"]):
+            melhor = {**oferta, "origem": origem}
     return melhor
 
 
@@ -182,13 +195,29 @@ def enviar_email(assunto, corpo_html):
         smtp.sendmail(remetente, destinatario, msg.as_string())
 
 
+def formatar_data_viagem(oferta):
+    if oferta is None:
+        return "-"
+    data_ida = oferta.get("departure_at")
+    data_volta = oferta.get("return_at")
+    if not data_ida:
+        return "-"
+    ida_fmt = data_ida[:10]  # YYYY-MM-DD, sem hora
+    if data_volta:
+        return f"{ida_fmt} → {data_volta[:10]}"
+    return ida_fmt
+
+
 def montar_html(resultados, alertas):
     linhas = []
     for r in resultados:
         destaque = ' style="color:#0a7d2c;font-weight:bold;"' if r["alerta"] else ""
         preco_fmt = f"R$ {r['preco']:.0f}" if r["preco"] is not None else "sem dados"
+        data_viagem = formatar_data_viagem(r.get("oferta"))
+        origem_fmt = r["oferta"]["origem"] if r.get("oferta") else "-"
         linhas.append(
-            f"<tr><td>{r['nome']}</td><td{destaque}>{preco_fmt}</td><td>{r['motivo'] or '-'}</td></tr>"
+            f"<tr><td>{r['nome']}</td><td{destaque}>{preco_fmt}</td>"
+            f"<td>{origem_fmt}</td><td>{data_viagem}</td><td>{r['motivo'] or '-'}</td></tr>"
         )
 
     tabela = "\n".join(linhas)
@@ -203,12 +232,14 @@ def montar_html(resultados, alertas):
     <h2>Buscador de passagens - resumo do dia</h2>
     {resumo_alerta}
     <table border="1" cellpadding="6" cellspacing="0">
-      <tr><th>Destino</th><th>Menor preço encontrado</th><th>Motivo do alerta</th></tr>
+      <tr><th>Destino</th><th>Menor preço encontrado</th><th>Saindo de</th><th>Data da viagem</th><th>Motivo do alerta</th></tr>
       {tabela}
     </table>
     <p style="color:#888;font-size:12px;">
       Preços via Travelpayouts/Aviasales (dados em cache de buscas recentes de usuários,
       podem ter até alguns dias) - confirme sempre no site da companhia antes de comprar.
+      A data mostrada é a que estava disponível na oferta mais barata encontrada, não
+      necessariamente a data mais barata possível para a rota.
     </p>
     </body></html>
     """
@@ -240,19 +271,26 @@ def main():
         )
         media = media_historica(historico, chave)
 
-        preco = melhor_preco_entre_origens(token, origem_lista, info["codigo"], moeda)
+        oferta = melhor_oferta_entre_origens(token, origem_lista, info["codigo"], moeda)
+        preco = oferta["price"] if oferta is not None else None
 
         primeira_vez = media is None
         eh_alerta, motivo = (False, None)
         if not primeira_vez:
             eh_alerta, motivo = avaliar_alerta(preco, media, teto_absoluto, queda_percentual_minima)
 
-        resultados.append({"nome": info["nome"], "preco": preco, "alerta": eh_alerta, "motivo": motivo})
+        resultados.append({
+            "nome": info["nome"],
+            "preco": preco,
+            "oferta": oferta,
+            "alerta": eh_alerta,
+            "motivo": motivo,
+        })
         if eh_alerta:
             alertas.append(chave)
 
-        if preco is not None:
-            atualizar_historico(chave, preco, historico, tamanho_max_media)
+        if oferta is not None:
+            atualizar_historico(chave, oferta, historico, tamanho_max_media)
 
     salvar_historico(historico)
 
