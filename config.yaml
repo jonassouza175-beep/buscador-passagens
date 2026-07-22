@@ -1,0 +1,71 @@
+# ============================================================
+# Configuração do buscador de passagens
+# Edite os valores abaixo conforme sua preferência.
+# ============================================================
+
+origem:
+  # Galeão (voos internacionais e boa parte dos domésticos) e Santos Dumont
+  aeroportos: ["GIG", "SDU"]
+
+# Capitais de todos os estados brasileiros (código IATA do aeroporto principal)
+destinos_brasil:
+  AC: "RBR"   # Rio Branco
+  AL: "MCZ"   # Maceió
+  AP: "MCP"   # Macapá
+  AM: "MAO"   # Manaus
+  BA: "SSA"   # Salvador
+  CE: "FOR"   # Fortaleza
+  DF: "BSB"   # Brasília
+  ES: "VIX"   # Vitória
+  GO: "GYN"   # Goiânia
+  MA: "SLZ"   # São Luís
+  MT: "CGB"   # Cuiabá
+  MS: "CGR"   # Campo Grande
+  MG: "CNF"   # Belo Horizonte (Confins)
+  PA: "BEL"   # Belém
+  PB: "JPA"   # João Pessoa
+  PR: "CWB"   # Curitiba
+  PE: "REC"   # Recife
+  PI: "THE"   # Teresina
+  RN: "NAT"   # Natal
+  RS: "POA"   # Porto Alegre
+  RO: "PVH"   # Porto Velho
+  RR: "BVB"   # Boa Vista
+  SC: "FLN"   # Florianópolis
+  SP: "GRU"   # São Paulo
+  SE: "AJU"   # Aracaju
+  TO: "PMW"   # Palmas
+
+# Principais hubs europeus a partir do Rio (GIG costuma ter voo direto ou 1 conexão)
+destinos_europa:
+  Lisboa: "LIS"
+  Madri: "MAD"
+  Paris: "CDG"
+  Roma: "FCO"
+  Londres: "LHR"
+  Amsterda: "AMS"
+  Frankfurt: "FRA"
+  Barcelona: "BCN"
+
+busca:
+  # Datas testadas por destino, em dias a partir de hoje.
+  # Poucas datas = menos chamadas de API (respeita cota gratuita).
+  dias_a_partir_de_hoje: [30, 60, 90, 120]
+  duracao_viagem_dias: 9        # ida e volta, usado para destinos internacionais
+  adultos: 1
+  moeda: "BRL"
+  # Quantos "grupos" de destino existem (um por dia da semana).
+  # O script processa 1 grupo por execução, girando os 7 dias,
+  # assim TODOS os destinos são cobertos ao longo da semana
+  # sem estourar o limite de chamadas da API em um único dia.
+  grupos_por_semana: 7
+  # Quantos preços recentes de cada destino ficam guardados pra
+  # calcular a média histórica (usada para decidir se vale investigar
+  # mais a fundo ou não gastar API com um destino em preço normal).
+  tamanho_historico_media: 20
+
+alertas:
+  queda_percentual_minima: 10      # avisa se o preço caiu X% ou mais vs. o menor já visto
+  preco_maximo_brasil: 900         # também avisa se ficar abaixo desse valor (R$)
+  preco_maximo_europa: 3500        # também avisa se ficar abaixo desse valor (R$)
+  sempre_enviar_resumo: false      # true = recebe e-mail todo dia; false = só quando há alerta
