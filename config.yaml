@@ -102,3 +102,9 @@ alertas:
   preco_maximo_brasil: 900         # também avisa se ficar abaixo desse valor (R$)
   preco_maximo_europa: 3500        # também avisa se ficar abaixo desse valor (R$)
   sempre_enviar_resumo: false      # true = recebe e-mail todo dia; false = só quando há alerta
+
+# Leitura do feed RSS público do Melhores Destinos (não é raspagem - é a forma
+# oficial e legítima que eles disponibilizam pra automação/leitores de feed).
+melhoresdestinos:
+  ativado: true
+  horas_recentes: 48   # só considera posts publicados nas últimas X horas
