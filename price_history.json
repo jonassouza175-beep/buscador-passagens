@@ -1,0 +1,18 @@
+{
+  "BR-MA": {
+    "precos_recentes": [
+      791
+    ],
+    "menor_preco": 791,
+    "ultimo_preco": 791,
+    "ultima_atualizacao": "2026-07-22"
+  },
+  "BR-PE": {
+    "precos_recentes": [
+      1025
+    ],
+    "menor_preco": 1025,
+    "ultimo_preco": 1025,
+    "ultima_atualizacao": "2026-07-22"
+  }
+}
