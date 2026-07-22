@@ -1,6 +1,7 @@
 {
   "BR-MA": {
     "precos_recentes": [
+      791,
       791
     ],
     "menor_preco": 791,
@@ -9,10 +10,27 @@
   },
   "BR-PE": {
     "precos_recentes": [
+      1025,
       1025
     ],
     "menor_preco": 1025,
     "ultimo_preco": 1025,
+    "ultima_atualizacao": "2026-07-22"
+  },
+  "EU-Suica_Zurique": {
+    "precos_recentes": [
+      5363
+    ],
+    "menor_preco": 5363,
+    "ultimo_preco": 5363,
+    "ultima_atualizacao": "2026-07-22"
+  },
+  "EU-Servia_Belgrado": {
+    "precos_recentes": [
+      6538
+    ],
+    "menor_preco": 6538,
+    "ultimo_preco": 6538,
     "ultima_atualizacao": "2026-07-22"
   }
 }
