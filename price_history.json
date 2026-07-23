@@ -79,6 +79,7 @@
   },
   "BR-AM": {
     "precos_recentes": [
+      1743,
       1743
     ],
     "menor_preco": 1743,
@@ -109,6 +110,7 @@
   },
   "BR-PI": {
     "precos_recentes": [
+      1051,
       1051
     ],
     "menor_preco": 1051,
@@ -124,6 +126,7 @@
   },
   "BR-SE": {
     "precos_recentes": [
+      1132,
       1132
     ],
     "menor_preco": 1132,
@@ -139,10 +142,11 @@
   },
   "EU-Austria_Viena": {
     "precos_recentes": [
-      6717
+      6717,
+      6776
     ],
     "menor_preco": 6717,
-    "ultimo_preco": 6717,
+    "ultimo_preco": 6776,
     "ultima_atualizacao": "2026-07-23",
     "ultima_oferta": {
       "origem": "GIG",
@@ -154,6 +158,7 @@
   },
   "EU-Turquia_Istambul": {
     "precos_recentes": [
+      6186,
       6186
     ],
     "menor_preco": 6186,
