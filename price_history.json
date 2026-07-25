@@ -171,5 +171,65 @@
       "companhia": "BA",
       "numero_voo": 248
     }
+  },
+  "BR-CE": {
+    "precos_recentes": [
+      881
+    ],
+    "menor_preco": 881,
+    "ultimo_preco": 881,
+    "ultima_atualizacao": "2026-07-25",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-08-22T15:35:00-03:00",
+      "data_volta": "2026-08-24T02:25:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 4681
+    }
+  },
+  "BR-RS": {
+    "precos_recentes": [
+      492
+    ],
+    "menor_preco": 492,
+    "ultimo_preco": 492,
+    "ultima_atualizacao": "2026-07-25",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-08-27T16:45:00-03:00",
+      "data_volta": "2026-09-01T11:00:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3892
+    }
+  },
+  "EU-Portugal_Lisboa": {
+    "precos_recentes": [
+      5505
+    ],
+    "menor_preco": 5505,
+    "ultimo_preco": 5505,
+    "ultima_atualizacao": "2026-07-25",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-10-10T22:05:00-03:00",
+      "data_volta": "2026-10-30T09:00:00Z",
+      "companhia": "G3",
+      "numero_voo": 1839
+    }
+  },
+  "EU-Grecia_Atenas": {
+    "precos_recentes": [
+      6569
+    ],
+    "menor_preco": 6569,
+    "ultimo_preco": 6569,
+    "ultima_atualizacao": "2026-07-25",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-08-24T21:55:00-03:00",
+      "data_volta": "2026-09-05T06:00:00+03:00",
+      "companhia": "KL",
+      "numero_voo": 706
+    }
   }
 }
