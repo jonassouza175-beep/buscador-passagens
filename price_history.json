@@ -231,5 +231,95 @@
       "companhia": "KL",
       "numero_voo": 706
     }
+  },
+  "BR-DF": {
+    "precos_recentes": [
+      394
+    ],
+    "menor_preco": 394,
+    "ultimo_preco": 394,
+    "ultima_atualizacao": "2026-07-26",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-10-01T06:05:00-03:00",
+      "data_volta": "2026-10-04T20:35:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1837
+    }
+  },
+  "BR-PA": {
+    "precos_recentes": [
+      1162
+    ],
+    "menor_preco": 1162,
+    "ultimo_preco": 1162,
+    "ultima_atualizacao": "2026-07-26",
+    "ultima_oferta": {
+      "origem": "SDU",
+      "data_ida": "2026-11-12T06:00:00-03:00",
+      "data_volta": "2026-11-16T13:25:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1813
+    }
+  },
+  "BR-RO": {
+    "precos_recentes": [
+      2561
+    ],
+    "menor_preco": 2561,
+    "ultimo_preco": 2561,
+    "ultima_atualizacao": "2026-07-26",
+    "ultima_oferta": {
+      "origem": "SDU",
+      "data_ida": "2026-08-22T13:50:00-03:00",
+      "data_volta": "2026-08-26T00:05:00-04:00",
+      "companhia": "AD",
+      "numero_voo": 5032
+    }
+  },
+  "EU-Espanha_Madri": {
+    "precos_recentes": [
+      4192
+    ],
+    "menor_preco": 4192,
+    "ultimo_preco": 4192,
+    "ultima_atualizacao": "2026-07-26",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-11-21T12:15:00-03:00",
+      "data_volta": "2026-11-26T11:50:00+01:00",
+      "companhia": "LA",
+      "numero_voo": 4673
+    }
+  },
+  "EU-Alemanha_Frankfurt": {
+    "precos_recentes": [
+      5274
+    ],
+    "menor_preco": 5274,
+    "ultimo_preco": 5274,
+    "ultima_atualizacao": "2026-07-26",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-10-24T19:15:00-03:00",
+      "data_volta": "2026-11-07T19:35:00+01:00",
+      "companhia": "IB",
+      "numero_voo": 270
+    }
+  },
+  "EU-Dinamarca_Copenhague": {
+    "precos_recentes": [
+      5873
+    ],
+    "menor_preco": 5873,
+    "ultimo_preco": 5873,
+    "ultima_atualizacao": "2026-07-26",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-08-08T22:00:00-03:00",
+      "data_volta": "2026-10-03T17:25:00+02:00",
+      "companhia": "AF",
+      "numero_voo": 443
+    }
   }
 }
