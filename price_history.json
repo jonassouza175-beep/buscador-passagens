@@ -6,17 +6,18 @@
       791,
       791,
       791,
-      791
+      791,
+      1048
     ],
     "menor_preco": 791,
-    "ultimo_preco": 791,
-    "ultima_atualizacao": "2026-07-22",
+    "ultimo_preco": 1048,
+    "ultima_atualizacao": "2026-07-29",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-10-15T05:40:00-03:00",
-      "data_volta": "2026-10-22T05:15:00-03:00",
-      "companhia": "JJ",
-      "numero_voo": 3022
+      "origem": "SDU",
+      "data_ida": "2026-10-15T11:25:00-03:00",
+      "data_volta": "2026-10-22T02:35:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2630
     }
   },
   "BR-PE": {
@@ -26,17 +27,18 @@
       1025,
       1025,
       1025,
-      1025
+      1025,
+      1098
     ],
     "menor_preco": 1025,
-    "ultimo_preco": 1025,
-    "ultima_atualizacao": "2026-07-22",
+    "ultimo_preco": 1098,
+    "ultima_atualizacao": "2026-07-29",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-08-28T05:45:00-03:00",
-      "data_volta": "2026-08-31T10:00:00-03:00",
+      "data_ida": "2026-11-01T06:20:00-03:00",
+      "data_volta": "2026-11-29T02:40:00-03:00",
       "companhia": "AD",
-      "numero_voo": 4450
+      "numero_voo": 2926
     }
   },
   "EU-Suica_Zurique": {
@@ -45,15 +47,16 @@
       5363,
       5363,
       5363,
-      5363
+      5363,
+      5641
     ],
     "menor_preco": 5363,
-    "ultimo_preco": 5363,
-    "ultima_atualizacao": "2026-07-22",
+    "ultimo_preco": 5641,
+    "ultima_atualizacao": "2026-07-29",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2026-09-22T22:10:00-03:00",
-      "data_volta": "2026-10-06T19:25:00+02:00",
+      "data_volta": "2026-10-06T07:00:00+02:00",
       "companhia": "AF",
       "numero_voo": 443
     }
@@ -64,17 +67,18 @@
       6538,
       6538,
       6538,
-      6538
+      6538,
+      6559
     ],
     "menor_preco": 6538,
-    "ultimo_preco": 6538,
-    "ultima_atualizacao": "2026-07-22",
+    "ultimo_preco": 6559,
+    "ultima_atualizacao": "2026-07-29",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-07T15:35:00-03:00",
-      "data_volta": "2026-11-21T13:30:00+01:00",
-      "companhia": "AZ",
-      "numero_voo": 673
+      "data_ida": "2026-09-22T21:55:00-03:00",
+      "data_volta": "2026-10-14T06:15:00+02:00",
+      "companhia": "KL",
+      "numero_voo": 706
     }
   },
   "BR-AM": {
