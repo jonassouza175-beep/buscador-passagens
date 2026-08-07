@@ -488,47 +488,50 @@
   },
   "BR-BA": {
     "precos_recentes": [
-      644
+      644,
+      902
     ],
     "menor_preco": 644,
-    "ultimo_preco": 644,
-    "ultima_atualizacao": "2026-07-31",
+    "ultimo_preco": 902,
+    "ultima_atualizacao": "2026-08-07",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-06T18:05:00-03:00",
-      "data_volta": "2026-11-06T23:45:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1896
+      "data_ida": "2026-12-03T20:50:00-03:00",
+      "data_volta": "2026-12-05T09:15:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4752
     }
   },
   "BR-MS": {
     "precos_recentes": [
-      821
+      821,
+      812
     ],
-    "menor_preco": 821,
-    "ultimo_preco": 821,
-    "ultima_atualizacao": "2026-07-31",
+    "menor_preco": 812,
+    "ultimo_preco": 812,
+    "ultima_atualizacao": "2026-08-07",
     "ultima_oferta": {
       "origem": "SDU",
-      "data_ida": "2026-08-28T06:15:00-03:00",
-      "data_volta": "2026-08-31T14:50:00-04:00",
-      "companhia": "AD",
-      "numero_voo": 2666
+      "data_ida": "2026-10-03T11:00:00-03:00",
+      "data_volta": "2026-10-05T15:15:00-04:00",
+      "companhia": "G3",
+      "numero_voo": 1017
     }
   },
   "BR-RN": {
     "precos_recentes": [
-      1398
+      1398,
+      1439
     ],
     "menor_preco": 1398,
-    "ultimo_preco": 1398,
-    "ultima_atualizacao": "2026-07-31",
+    "ultimo_preco": 1439,
+    "ultima_atualizacao": "2026-08-07",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-02T08:50:00-03:00",
-      "data_volta": "2026-12-13T12:25:00-03:00",
+      "data_ida": "2026-10-09T06:05:00-03:00",
+      "data_volta": "2026-10-14T12:00:00-03:00",
       "companhia": "LA",
-      "numero_voo": 3367
+      "numero_voo": 3791
     }
   },
   "BR-TO": {
