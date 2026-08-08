@@ -188,62 +188,66 @@
   "BR-CE": {
     "precos_recentes": [
       881,
-      1093
+      1093,
+      1422
     ],
     "menor_preco": 881,
-    "ultimo_preco": 1093,
-    "ultima_atualizacao": "2026-08-01",
+    "ultimo_preco": 1422,
+    "ultima_atualizacao": "2026-08-08",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2027-05-10T15:50:00-03:00",
-      "data_volta": "2027-05-15T04:40:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1029
+      "origem": "GIG",
+      "data_ida": "2026-11-17T17:10:00-03:00",
+      "data_volta": "2026-11-22T13:20:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4437
     }
   },
   "BR-RS": {
     "precos_recentes": [
       492,
-      607
+      607,
+      650
     ],
     "menor_preco": 492,
-    "ultimo_preco": 607,
-    "ultima_atualizacao": "2026-08-01",
+    "ultimo_preco": 650,
+    "ultima_atualizacao": "2026-08-08",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-10-08T05:30:00-03:00",
-      "data_volta": "2026-10-15T21:05:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2901
+      "origem": "SDU",
+      "data_ida": "2026-10-08T06:45:00-03:00",
+      "data_volta": "2026-10-15T08:50:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3173
     }
   },
   "EU-Portugal_Lisboa": {
     "precos_recentes": [
       5505,
-      4742
+      4742,
+      4501
     ],
-    "menor_preco": 4742,
-    "ultimo_preco": 4742,
-    "ultima_atualizacao": "2026-08-01",
+    "menor_preco": 4501,
+    "ultimo_preco": 4501,
+    "ultima_atualizacao": "2026-08-08",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-04T15:35:00-03:00",
-      "data_volta": "2026-10-11T23:45:00+01:00",
-      "companhia": "TP",
-      "numero_voo": 74
+      "data_ida": "2026-10-23T23:00:00-03:00",
+      "data_volta": "2026-11-20T08:50:00Z",
+      "companhia": "JJ",
+      "numero_voo": 3582
     }
   },
   "EU-Grecia_Atenas": {
     "precos_recentes": [
-      6569
+      6569,
+      6101
     ],
-    "menor_preco": 6569,
-    "ultimo_preco": 6569,
-    "ultima_atualizacao": "2026-07-25",
+    "menor_preco": 6101,
+    "ultimo_preco": 6101,
+    "ultima_atualizacao": "2026-08-08",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2026-08-24T21:55:00-03:00",
-      "data_volta": "2026-09-05T06:00:00+03:00",
+      "data_volta": "2026-09-05T17:45:00+03:00",
       "companhia": "KL",
       "numero_voo": 706
     }
@@ -566,14 +570,15 @@
   },
   "EU-RepublicaTcheca_Praga": {
     "precos_recentes": [
-      6395
+      6395,
+      6217
     ],
-    "menor_preco": 6395,
-    "ultimo_preco": 6395,
-    "ultima_atualizacao": "2026-08-01",
+    "menor_preco": 6217,
+    "ultimo_preco": 6217,
+    "ultima_atualizacao": "2026-08-08",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-06-25T15:35:00-03:00",
+      "data_ida": "2027-06-24T15:35:00-03:00",
       "data_volta": "2027-07-05T19:30:00+02:00",
       "companhia": "TP",
       "numero_voo": 76
