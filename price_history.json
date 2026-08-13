@@ -92,17 +92,18 @@
     "precos_recentes": [
       1743,
       1743,
-      1013
+      1013,
+      1788
     ],
     "menor_preco": 1013,
-    "ultimo_preco": 1013,
-    "ultima_atualizacao": "2026-07-30",
+    "ultimo_preco": 1788,
+    "ultima_atualizacao": "2026-08-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-03-10T21:45:00-03:00",
-      "data_volta": "2027-03-11T03:45:00-04:00",
-      "companhia": "G3",
-      "numero_voo": 2034
+      "data_ida": "2026-11-01T05:10:00-03:00",
+      "data_volta": "2026-11-03T05:10:00-04:00",
+      "companhia": "LA",
+      "numero_voo": 3082
     }
   },
   "BR-MT": {
@@ -124,66 +125,70 @@
     "precos_recentes": [
       1051,
       1051,
-      1150
+      1150,
+      1383
     ],
     "menor_preco": 1051,
-    "ultimo_preco": 1150,
-    "ultima_atualizacao": "2026-07-30",
+    "ultimo_preco": 1383,
+    "ultima_atualizacao": "2026-08-13",
     "ultima_oferta": {
       "origem": "SDU",
-      "data_ida": "2026-09-10T10:00:00-03:00",
-      "data_volta": "2026-09-30T03:35:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4118
+      "data_ida": "2026-12-08T06:00:00-03:00",
+      "data_volta": "2026-12-26T03:50:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1813
     }
   },
   "BR-SE": {
     "precos_recentes": [
       1132,
       1132,
-      1235
+      1235,
+      1351
     ],
     "menor_preco": 1132,
-    "ultimo_preco": 1235,
-    "ultima_atualizacao": "2026-07-30",
+    "ultimo_preco": 1351,
+    "ultima_atualizacao": "2026-08-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-22T20:40:00-03:00",
-      "data_volta": "2026-09-30T13:30:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4041
+      "data_ida": "2026-09-21T06:00:00-03:00",
+      "data_volta": "2026-09-21T19:05:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1383
     }
   },
   "EU-Austria_Viena": {
     "precos_recentes": [
       6717,
       6776,
-      6919
+      6919,
+      7393
     ],
     "menor_preco": 6717,
-    "ultimo_preco": 6919,
-    "ultima_atualizacao": "2026-07-30",
+    "ultimo_preco": 7393,
+    "ultima_atualizacao": "2026-08-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-28T20:00:00-03:00",
-      "data_volta": "2026-10-03T12:20:00+02:00",
-      "companhia": "TP",
-      "numero_voo": 72
+      "data_ida": "2026-09-28T21:55:00-03:00",
+      "data_volta": "2026-10-03T20:00:00+02:00",
+      "companhia": "KL",
+      "numero_voo": 706
     }
   },
   "EU-Turquia_Istambul": {
     "precos_recentes": [
       6186,
       6186,
-      5745
+      5745,
+      6269
     ],
     "menor_preco": 5745,
-    "ultimo_preco": 5745,
-    "ultima_atualizacao": "2026-07-30",
+    "ultimo_preco": 6269,
+    "ultima_atualizacao": "2026-08-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-04T18:00:00-03:00",
-      "data_volta": "2026-11-11T15:00:00+03:00",
+      "data_ida": "2027-02-15T18:00:00-03:00",
+      "data_volta": "2027-02-21T21:25:00+03:00",
       "companhia": "BA",
       "numero_voo": 248
     }
