@@ -404,34 +404,36 @@
     "precos_recentes": [
       1074,
       1125,
-      1328
+      1328,
+      1245
     ],
     "menor_preco": 1074,
-    "ultimo_preco": 1328,
-    "ultima_atualizacao": "2026-08-10",
+    "ultimo_preco": 1245,
+    "ultima_atualizacao": "2026-08-17",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-08T06:10:00-03:00",
-      "data_volta": "2026-10-21T18:10:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4505
+      "data_ida": "2026-10-15T06:00:00-03:00",
+      "data_volta": "2026-10-15T17:40:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1383
     }
   },
   "EU-Espanha_Barcelona": {
     "precos_recentes": [
       4314,
       4227,
-      4167
+      4167,
+      4322
     ],
     "menor_preco": 4167,
-    "ultimo_preco": 4167,
-    "ultima_atualizacao": "2026-08-10",
+    "ultimo_preco": 4322,
+    "ultima_atualizacao": "2026-08-17",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-23T14:25:00-03:00",
-      "data_volta": "2026-11-26T16:50:00+01:00",
-      "companhia": "AZ",
-      "numero_voo": 673
+      "data_ida": "2026-10-25T23:40:00-03:00",
+      "data_volta": "2026-11-08T20:20:00+01:00",
+      "companhia": "AF",
+      "numero_voo": 409
     }
   },
   "BR-AL": {
@@ -700,6 +702,21 @@
       "origem": "GIG",
       "data_ida": "2027-05-01T15:00:00-03:00",
       "data_volta": "2027-05-04T17:10:00+02:00",
+      "companhia": "JJ",
+      "numero_voo": 3429
+    }
+  },
+  "EU-Eslovaquia_Bratislava": {
+    "precos_recentes": [
+      5648
+    ],
+    "menor_preco": 5648,
+    "ultimo_preco": 5648,
+    "ultima_atualizacao": "2026-08-17",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-11-11T15:00:00-03:00",
+      "data_volta": "2026-11-22T18:55:00+01:00",
       "companhia": "JJ",
       "numero_voo": 3429
     }
