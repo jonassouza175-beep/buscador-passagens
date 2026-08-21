@@ -535,17 +535,18 @@
     "precos_recentes": [
       644,
       902,
-      942
+      942,
+      741
     ],
     "menor_preco": 644,
-    "ultimo_preco": 942,
-    "ultima_atualizacao": "2026-08-14",
+    "ultimo_preco": 741,
+    "ultima_atualizacao": "2026-08-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-23T21:35:00-03:00",
-      "data_volta": "2026-10-06T05:00:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3674
+      "data_ida": "2027-01-13T14:10:00-03:00",
+      "data_volta": "2027-01-13T23:50:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1892
     }
   },
   "BR-MS": {
@@ -568,17 +569,18 @@
     "precos_recentes": [
       1398,
       1439,
-      1369
+      1369,
+      1579
     ],
     "menor_preco": 1369,
-    "ultimo_preco": 1369,
-    "ultima_atualizacao": "2026-08-14",
+    "ultimo_preco": 1579,
+    "ultima_atualizacao": "2026-08-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-09T06:05:00-03:00",
-      "data_volta": "2026-10-14T04:15:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3791
+      "data_ida": "2026-09-06T19:10:00-03:00",
+      "data_volta": "2026-09-16T04:25:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2652
     }
   },
   "BR-TO": {
@@ -732,6 +734,21 @@
       "data_volta": "2026-11-22T18:55:00+01:00",
       "companhia": "JJ",
       "numero_voo": 3429
+    }
+  },
+  "EU-Chipre_Larnaca": {
+    "precos_recentes": [
+      6375
+    ],
+    "menor_preco": 6375,
+    "ultimo_preco": 6375,
+    "ultima_atualizacao": "2026-08-21",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-11-23T15:35:00-03:00",
+      "data_volta": "2026-11-27T23:00:00+02:00",
+      "companhia": "AZ",
+      "numero_voo": 5241
     }
   }
 }
