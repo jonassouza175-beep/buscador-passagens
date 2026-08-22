@@ -207,17 +207,18 @@
       881,
       1093,
       1422,
-      1513
+      1513,
+      1280
     ],
     "menor_preco": 881,
-    "ultimo_preco": 1513,
-    "ultima_atualizacao": "2026-08-15",
+    "ultimo_preco": 1280,
+    "ultima_atualizacao": "2026-08-22",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-25T20:40:00-03:00",
-      "data_volta": "2026-09-29T05:15:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4041
+      "data_ida": "2026-10-21T22:25:00-03:00",
+      "data_volta": "2026-10-27T21:30:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3882
     }
   },
   "BR-RS": {
@@ -225,17 +226,18 @@
       492,
       607,
       650,
-      840
+      840,
+      931
     ],
     "menor_preco": 492,
-    "ultimo_preco": 840,
-    "ultima_atualizacao": "2026-08-15",
+    "ultimo_preco": 931,
+    "ultima_atualizacao": "2026-08-22",
     "ultima_oferta": {
       "origem": "SDU",
-      "data_ida": "2026-10-08T06:30:00-03:00",
-      "data_volta": "2026-10-15T10:00:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3259
+      "data_ida": "2026-10-13T15:15:00-03:00",
+      "data_volta": "2026-10-17T14:40:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2916
     }
   },
   "EU-Portugal_Lisboa": {
@@ -243,34 +245,36 @@
       5505,
       4742,
       4501,
-      4508
+      4508,
+      4345
     ],
-    "menor_preco": 4501,
-    "ultimo_preco": 4508,
-    "ultima_atualizacao": "2026-08-15",
+    "menor_preco": 4345,
+    "ultimo_preco": 4345,
+    "ultima_atualizacao": "2026-08-22",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-12-02T21:00:00-03:00",
-      "data_volta": "2027-01-26T11:20:00Z",
-      "companhia": "AC",
-      "numero_voo": 85
+      "origem": "SDU",
+      "data_ida": "2026-11-12T17:30:00-03:00",
+      "data_volta": "2026-11-22T23:00:00Z",
+      "companhia": "AD",
+      "numero_voo": 4176
     }
   },
   "EU-Grecia_Atenas": {
     "precos_recentes": [
       6569,
       6101,
-      6292
+      6292,
+      6040
     ],
-    "menor_preco": 6101,
-    "ultimo_preco": 6292,
-    "ultima_atualizacao": "2026-08-15",
+    "menor_preco": 6040,
+    "ultimo_preco": 6040,
+    "ultima_atualizacao": "2026-08-22",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-08-24T22:00:00-03:00",
+      "data_ida": "2026-08-24T21:55:00-03:00",
       "data_volta": "2026-09-05T06:00:00+03:00",
-      "companhia": "AF",
-      "numero_voo": 443
+      "companhia": "KL",
+      "numero_voo": 706
     }
   },
   "BR-DF": {
@@ -618,11 +622,12 @@
     "precos_recentes": [
       6395,
       6217,
-      6434
+      6434,
+      6487
     ],
     "menor_preco": 6217,
-    "ultimo_preco": 6434,
-    "ultima_atualizacao": "2026-08-15",
+    "ultimo_preco": 6487,
+    "ultima_atualizacao": "2026-08-22",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2027-06-25T15:35:00-03:00",
