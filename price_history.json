@@ -101,17 +101,18 @@
       1743,
       1013,
       1788,
-      1201
+      1201,
+      1294
     ],
     "menor_preco": 1013,
-    "ultimo_preco": 1201,
-    "ultima_atualizacao": "2026-08-20",
+    "ultimo_preco": 1294,
+    "ultima_atualizacao": "2026-08-27",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-11-07T06:10:00-03:00",
-      "data_volta": "2026-11-07T19:35:00-04:00",
+      "origem": "GIG",
+      "data_ida": "2026-12-03T20:40:00-03:00",
+      "data_volta": "2026-12-05T02:10:00-04:00",
       "companhia": "AD",
-      "numero_voo": 2936
+      "numero_voo": 4041
     }
   },
   "BR-MT": {
@@ -136,17 +137,18 @@
       1051,
       1150,
       1383,
-      1122
+      1122,
+      1324
     ],
     "menor_preco": 1051,
-    "ultimo_preco": 1122,
-    "ultima_atualizacao": "2026-08-20",
+    "ultimo_preco": 1324,
+    "ultima_atualizacao": "2026-08-27",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-09-10T21:10:00-03:00",
+      "origem": "GIG",
+      "data_ida": "2026-09-10T20:40:00-03:00",
       "data_volta": "2026-09-30T03:35:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2669
+      "numero_voo": 4041
     }
   },
   "BR-SE": {
@@ -174,17 +176,18 @@
       6776,
       6919,
       7393,
-      5019
+      5019,
+      7362
     ],
     "menor_preco": 5019,
-    "ultimo_preco": 5019,
-    "ultima_atualizacao": "2026-08-20",
+    "ultimo_preco": 7362,
+    "ultima_atualizacao": "2026-08-27",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-31T16:20:00-03:00",
-      "data_volta": "2026-11-12T07:10:00+01:00",
-      "companhia": "AZ",
-      "numero_voo": 681
+      "data_ida": "2026-09-28T21:55:00-03:00",
+      "data_volta": "2026-10-03T20:00:00+02:00",
+      "companhia": "KL",
+      "numero_voo": 706
     }
   },
   "EU-Turquia_Istambul": {
@@ -193,17 +196,18 @@
       6186,
       5745,
       6269,
-      6180
+      6180,
+      6051
     ],
     "menor_preco": 5745,
-    "ultimo_preco": 6180,
-    "ultima_atualizacao": "2026-08-20",
+    "ultimo_preco": 6051,
+    "ultima_atualizacao": "2026-08-27",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-11T18:00:00-03:00",
-      "data_volta": "2026-11-29T18:50:00+03:00",
-      "companhia": "BA",
-      "numero_voo": 248
+      "data_ida": "2026-11-18T15:35:00-03:00",
+      "data_volta": "2026-11-30T14:05:00+03:00",
+      "companhia": "AZ",
+      "numero_voo": 673
     }
   },
   "BR-CE": {
