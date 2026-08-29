@@ -216,17 +216,18 @@
       1093,
       1422,
       1513,
-      1280
+      1280,
+      1209
     ],
     "menor_preco": 881,
-    "ultimo_preco": 1280,
-    "ultima_atualizacao": "2026-08-22",
+    "ultimo_preco": 1209,
+    "ultima_atualizacao": "2026-08-29",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-21T22:25:00-03:00",
-      "data_volta": "2026-10-27T21:30:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3882
+      "data_ida": "2026-10-21T19:10:00-03:00",
+      "data_volta": "2026-10-27T05:40:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2652
     }
   },
   "BR-RS": {
@@ -235,17 +236,18 @@
       607,
       650,
       840,
-      931
+      931,
+      509
     ],
     "menor_preco": 492,
-    "ultimo_preco": 931,
-    "ultima_atualizacao": "2026-08-22",
+    "ultimo_preco": 509,
+    "ultima_atualizacao": "2026-08-29",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-10-13T15:15:00-03:00",
-      "data_volta": "2026-10-17T14:40:00-03:00",
+      "origem": "GIG",
+      "data_ida": "2026-10-08T05:20:00-03:00",
+      "data_volta": "2026-10-15T21:05:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2916
+      "numero_voo": 2901
     }
   },
   "EU-Portugal_Lisboa": {
@@ -254,17 +256,18 @@
       4742,
       4501,
       4508,
-      4345
+      4345,
+      4948
     ],
     "menor_preco": 4345,
-    "ultimo_preco": 4345,
-    "ultima_atualizacao": "2026-08-22",
+    "ultimo_preco": 4948,
+    "ultima_atualizacao": "2026-08-29",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-11-12T17:30:00-03:00",
-      "data_volta": "2026-11-22T23:00:00Z",
+      "origem": "GIG",
+      "data_ida": "2026-10-26T09:40:00-03:00",
+      "data_volta": "2026-11-14T09:20:00Z",
       "companhia": "AD",
-      "numero_voo": 4176
+      "numero_voo": 4028
     }
   },
   "EU-Grecia_Atenas": {
@@ -647,11 +650,12 @@
       6395,
       6217,
       6434,
-      6487
+      6487,
+      6495
     ],
     "menor_preco": 6217,
-    "ultimo_preco": 6487,
-    "ultima_atualizacao": "2026-08-22",
+    "ultimo_preco": 6495,
+    "ultima_atualizacao": "2026-08-29",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2027-06-25T15:35:00-03:00",
