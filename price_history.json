@@ -307,17 +307,18 @@
       677,
       544,
       646,
-      567
+      567,
+      591
     ],
     "menor_preco": 394,
-    "ultimo_preco": 567,
-    "ultima_atualizacao": "2026-08-30",
+    "ultimo_preco": 591,
+    "ultima_atualizacao": "2026-09-06",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-29T08:05:00-03:00",
-      "data_volta": "2027-01-06T08:05:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3244
+      "data_ida": "2026-12-29T21:10:00-03:00",
+      "data_volta": "2027-01-06T17:45:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1839
     }
   },
   "BR-PA": {
@@ -363,17 +364,18 @@
       4294,
       4285,
       4445,
-      4341
+      4341,
+      3810
     ],
-    "menor_preco": 4192,
-    "ultimo_preco": 4341,
-    "ultima_atualizacao": "2026-08-30",
+    "menor_preco": 3810,
+    "ultimo_preco": 3810,
+    "ultima_atualizacao": "2026-09-06",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-29T16:35:00-03:00",
-      "data_volta": "2026-11-07T21:10:00+01:00",
-      "companhia": "TP",
-      "numero_voo": 74
+      "data_ida": "2026-11-10T20:45:00-03:00",
+      "data_volta": "2026-11-25T06:00:00+01:00",
+      "companhia": "AF",
+      "numero_voo": 3882
     }
   },
   "EU-Alemanha_Frankfurt": {
@@ -401,17 +403,18 @@
       6225,
       6501,
       6596,
-      6212
+      6212,
+      6420
     ],
     "menor_preco": 5873,
-    "ultimo_preco": 6212,
-    "ultima_atualizacao": "2026-08-30",
+    "ultimo_preco": 6420,
+    "ultima_atualizacao": "2026-09-06",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-27T21:55:00-03:00",
-      "data_volta": "2026-10-04T19:40:00+02:00",
-      "companhia": "KL",
-      "numero_voo": 706
+      "data_ida": "2026-10-05T22:00:00-03:00",
+      "data_volta": "2026-10-12T06:55:00+02:00",
+      "companhia": "AF",
+      "numero_voo": 443
     }
   },
   "BR-AC": {
