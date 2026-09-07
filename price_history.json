@@ -420,11 +420,12 @@
   "BR-AC": {
     "precos_recentes": [
       2585,
-      2278
+      2278,
+      2439
     ],
     "menor_preco": 2278,
-    "ultimo_preco": 2278,
-    "ultima_atualizacao": "2026-08-24",
+    "ultimo_preco": 2439,
+    "ultima_atualizacao": "2026-09-07",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2027-06-17T15:45:00-03:00",
@@ -439,17 +440,18 @@
       600,
       1173,
       646,
-      1319
+      1319,
+      1024
     ],
     "menor_preco": 600,
-    "ultimo_preco": 1319,
-    "ultima_atualizacao": "2026-08-31",
+    "ultimo_preco": 1024,
+    "ultima_atualizacao": "2026-09-07",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-09-25T11:10:00-03:00",
-      "data_volta": "2026-09-27T04:55:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3923
+      "origem": "GIG",
+      "data_ida": "2026-10-02T13:20:00-03:00",
+      "data_volta": "2026-10-05T21:25:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2849
     }
   },
   "BR-PB": {
@@ -459,17 +461,18 @@
       1328,
       1245,
       887,
-      1413
+      1413,
+      1651
     ],
     "menor_preco": 887,
-    "ultimo_preco": 1413,
-    "ultima_atualizacao": "2026-08-31",
+    "ultimo_preco": 1651,
+    "ultima_atualizacao": "2026-09-07",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-23T14:45:00-03:00",
-      "data_volta": "2026-10-23T16:10:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4205
+      "data_ida": "2026-10-14T10:50:00-03:00",
+      "data_volta": "2026-10-19T02:55:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3027
     }
   },
   "EU-Espanha_Barcelona": {
@@ -479,17 +482,18 @@
       4167,
       4322,
       5821,
-      4733
+      4733,
+      4865
     ],
     "menor_preco": 4167,
-    "ultimo_preco": 4733,
-    "ultima_atualizacao": "2026-08-31",
+    "ultimo_preco": 4865,
+    "ultima_atualizacao": "2026-09-07",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-21T15:00:00-03:00",
-      "data_volta": "2026-10-26T11:50:00+01:00",
-      "companhia": "LA",
-      "numero_voo": 3429
+      "data_ida": "2027-05-01T16:40:00-03:00",
+      "data_volta": "2027-05-08T13:50:00+02:00",
+      "companhia": "AV",
+      "numero_voo": 146
     }
   },
   "BR-AL": {
