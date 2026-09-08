@@ -503,17 +503,18 @@
       2019,
       1958,
       1730,
-      789
+      789,
+      1554
     ],
     "menor_preco": 789,
-    "ultimo_preco": 789,
-    "ultima_atualizacao": "2026-09-01",
+    "ultimo_preco": 1554,
+    "ultima_atualizacao": "2026-09-08",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-12-19T16:00:00-03:00",
-      "data_volta": "2026-12-20T04:05:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 2082
+      "origem": "SDU",
+      "data_ida": "2027-01-30T18:05:00-03:00",
+      "data_volta": "2027-02-07T05:00:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3788
     }
   },
   "BR-GO": {
@@ -541,17 +542,18 @@
       603,
       471,
       668,
-      575
+      575,
+      782
     ],
     "menor_preco": 471,
-    "ultimo_preco": 575,
-    "ultima_atualizacao": "2026-09-01",
+    "ultimo_preco": 782,
+    "ultima_atualizacao": "2026-09-08",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-23T11:05:00-03:00",
-      "data_volta": "2027-01-02T06:00:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 4616
+      "data_ida": "2026-10-08T05:05:00-03:00",
+      "data_volta": "2026-10-13T17:30:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4208
     }
   },
   "BR-SC": {
@@ -561,15 +563,16 @@
       848,
       589,
       574,
-      612
+      612,
+      737
     ],
     "menor_preco": 392,
-    "ultimo_preco": 612,
-    "ultima_atualizacao": "2026-09-01",
+    "ultimo_preco": 737,
+    "ultima_atualizacao": "2026-09-08",
     "ultima_oferta": {
       "origem": "SDU",
       "data_ida": "2027-04-14T07:10:00-03:00",
-      "data_volta": "2027-04-28T14:40:00-03:00",
+      "data_volta": "2027-04-28T10:15:00-03:00",
       "companhia": "LA",
       "numero_voo": 3905
     }
@@ -839,17 +842,18 @@
   },
   "EU-Montenegro_Podgorica": {
     "precos_recentes": [
-      6562
+      6562,
+      7495
     ],
     "menor_preco": 6562,
-    "ultimo_preco": 6562,
-    "ultima_atualizacao": "2026-08-25",
+    "ultimo_preco": 7495,
+    "ultima_atualizacao": "2026-09-08",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-26T16:20:00-03:00",
-      "data_volta": "2026-10-29T11:20:00+01:00",
-      "companhia": "AZ",
-      "numero_voo": 681
+      "data_ida": "2026-10-15T17:00:00-03:00",
+      "data_volta": "2026-10-18T22:45:00+02:00",
+      "companhia": "AD",
+      "numero_voo": 4087
     }
   },
   "EU-Polonia_Varsovia": {
