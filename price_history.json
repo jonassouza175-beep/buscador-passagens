@@ -12,17 +12,18 @@
       1017,
       988,
       1115,
-      997
+      997,
+      1151
     ],
     "menor_preco": 791,
-    "ultimo_preco": 997,
-    "ultima_atualizacao": "2026-09-02",
+    "ultimo_preco": 1151,
+    "ultima_atualizacao": "2026-09-09",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-15T14:45:00-03:00",
-      "data_volta": "2026-10-22T04:55:00-03:00",
+      "data_ida": "2026-10-24T20:55:00-03:00",
+      "data_volta": "2026-10-28T04:55:00-03:00",
       "companhia": "AD",
-      "numero_voo": 4205
+      "numero_voo": 4406
     }
   },
   "BR-PE": {
@@ -38,17 +39,18 @@
       1299,
       1496,
       778,
-      1011
+      1011,
+      1224
     ],
     "menor_preco": 778,
-    "ultimo_preco": 1011,
-    "ultima_atualizacao": "2026-09-02",
+    "ultimo_preco": 1224,
+    "ultima_atualizacao": "2026-09-09",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-03-18T12:00:00-03:00",
-      "data_volta": "2027-03-30T15:30:00-03:00",
+      "data_ida": "2026-10-05T19:10:00-03:00",
+      "data_volta": "2026-10-16T19:00:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2641
+      "numero_voo": 2652
     }
   },
   "EU-Suica_Zurique": {
@@ -62,17 +64,18 @@
       5921,
       6032,
       6259,
-      6155
+      6155,
+      6026
     ],
     "menor_preco": 5363,
-    "ultimo_preco": 6155,
-    "ultima_atualizacao": "2026-09-02",
+    "ultimo_preco": 6026,
+    "ultima_atualizacao": "2026-09-09",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-22T22:10:00-03:00",
-      "data_volta": "2026-10-06T07:45:00+02:00",
-      "companhia": "AF",
-      "numero_voo": 443
+      "data_ida": "2026-09-22T21:55:00-03:00",
+      "data_volta": "2026-10-06T09:20:00+02:00",
+      "companhia": "KL",
+      "numero_voo": 706
     }
   },
   "EU-Servia_Belgrado": {
@@ -869,6 +872,21 @@
       "data_volta": "2026-08-30T06:05:00+02:00",
       "companhia": "KL",
       "numero_voo": 706
+    }
+  },
+  "EU-Estonia_Talin": {
+    "precos_recentes": [
+      7758
+    ],
+    "menor_preco": 7758,
+    "ultimo_preco": 7758,
+    "ultima_atualizacao": "2026-09-09",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-10-15T17:00:00-03:00",
+      "data_volta": "2026-10-24T13:40:00+03:00",
+      "companhia": "AD",
+      "numero_voo": 4087
     }
   }
 }
