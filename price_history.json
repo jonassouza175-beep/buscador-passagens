@@ -320,17 +320,18 @@
       544,
       646,
       567,
-      591
+      591,
+      756
     ],
     "menor_preco": 394,
-    "ultimo_preco": 591,
-    "ultima_atualizacao": "2026-09-06",
+    "ultimo_preco": 756,
+    "ultima_atualizacao": "2026-09-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-29T21:10:00-03:00",
-      "data_volta": "2027-01-06T17:45:00-03:00",
+      "data_ida": "2026-10-16T12:55:00-03:00",
+      "data_volta": "2026-10-22T06:00:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1839
+      "numero_voo": 2156
     }
   },
   "BR-PA": {
@@ -377,17 +378,18 @@
       4285,
       4445,
       4341,
-      3810
+      3810,
+      4631
     ],
     "menor_preco": 3810,
-    "ultimo_preco": 3810,
-    "ultima_atualizacao": "2026-09-06",
+    "ultimo_preco": 4631,
+    "ultima_atualizacao": "2026-09-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-10T20:45:00-03:00",
-      "data_volta": "2026-11-25T06:00:00+01:00",
-      "companhia": "AF",
-      "numero_voo": 3882
+      "data_ida": "2027-05-11T07:20:00-03:00",
+      "data_volta": "2027-05-23T02:20:00+02:00",
+      "companhia": "AV",
+      "numero_voo": 260
     }
   },
   "EU-Alemanha_Frankfurt": {
@@ -396,17 +398,18 @@
       6643,
       6424,
       6950,
-      6460
+      6460,
+      6007
     ],
     "menor_preco": 5274,
-    "ultimo_preco": 6460,
-    "ultima_atualizacao": "2026-08-30",
+    "ultimo_preco": 6007,
+    "ultima_atualizacao": "2026-09-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-14T17:40:00-03:00",
-      "data_volta": "2027-01-17T20:50:00+01:00",
+      "data_ida": "2026-10-05T19:15:00-03:00",
+      "data_volta": "2026-10-11T21:30:00+02:00",
       "companhia": "LA",
-      "numero_voo": 3699
+      "numero_voo": 3875
     }
   },
   "EU-Dinamarca_Copenhague": {
@@ -416,17 +419,18 @@
       6501,
       6596,
       6212,
-      6420
+      6420,
+      5562
     ],
-    "menor_preco": 5873,
-    "ultimo_preco": 6420,
-    "ultima_atualizacao": "2026-09-06",
+    "menor_preco": 5562,
+    "ultimo_preco": 5562,
+    "ultima_atualizacao": "2026-09-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-05T22:00:00-03:00",
-      "data_volta": "2026-10-12T06:55:00+02:00",
-      "companhia": "AF",
-      "numero_voo": 443
+      "data_ida": "2026-11-06T22:05:00-03:00",
+      "data_volta": "2026-11-13T12:40:00+01:00",
+      "companhia": "TP",
+      "numero_voo": 72
     }
   },
   "BR-AC": {
