@@ -13,17 +13,18 @@
       988,
       1115,
       997,
-      1151
+      1151,
+      727
     ],
-    "menor_preco": 791,
-    "ultimo_preco": 1151,
-    "ultima_atualizacao": "2026-09-09",
+    "menor_preco": 727,
+    "ultimo_preco": 727,
+    "ultima_atualizacao": "2026-09-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-24T20:55:00-03:00",
-      "data_volta": "2026-10-28T04:55:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4406
+      "data_ida": "2027-02-24T15:10:00-03:00",
+      "data_volta": "2027-02-25T03:20:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1736
     }
   },
   "BR-PE": {
@@ -40,17 +41,18 @@
       1496,
       778,
       1011,
-      1224
+      1224,
+      844
     ],
     "menor_preco": 778,
-    "ultimo_preco": 1224,
-    "ultima_atualizacao": "2026-09-09",
+    "ultimo_preco": 844,
+    "ultima_atualizacao": "2026-09-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-05T19:10:00-03:00",
-      "data_volta": "2026-10-16T19:00:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2652
+      "data_ida": "2026-12-02T11:05:00-03:00",
+      "data_volta": "2026-12-02T16:55:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1874
     }
   },
   "EU-Suica_Zurique": {
@@ -65,17 +67,18 @@
       6032,
       6259,
       6155,
-      6026
+      6026,
+      6079
     ],
     "menor_preco": 5363,
-    "ultimo_preco": 6026,
-    "ultima_atualizacao": "2026-09-09",
+    "ultimo_preco": 6079,
+    "ultima_atualizacao": "2026-09-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-22T21:55:00-03:00",
-      "data_volta": "2026-10-06T09:20:00+02:00",
-      "companhia": "KL",
-      "numero_voo": 706
+      "data_ida": "2026-09-22T16:15:00-03:00",
+      "data_volta": "2026-10-06T06:55:00+02:00",
+      "companhia": "LH",
+      "numero_voo": 501
     }
   },
   "EU-Servia_Belgrado": {
