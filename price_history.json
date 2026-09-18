@@ -632,17 +632,18 @@
       741,
       953,
       674,
-      772
+      772,
+      739
     ],
     "menor_preco": 644,
-    "ultimo_preco": 772,
-    "ultima_atualizacao": "2026-09-11",
+    "ultimo_preco": 739,
+    "ultima_atualizacao": "2026-09-18",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-01T08:50:00-03:00",
-      "data_volta": "2026-12-01T18:00:00-03:00",
+      "data_ida": "2027-03-01T18:05:00-03:00",
+      "data_volta": "2027-03-01T23:50:00-03:00",
       "companhia": "G3",
-      "numero_voo": 2098
+      "numero_voo": 1896
     }
   },
   "BR-MS": {
@@ -672,17 +673,18 @@
       1579,
       1477,
       1291,
-      1079
+      1079,
+      959
     ],
-    "menor_preco": 1079,
-    "ultimo_preco": 1079,
-    "ultima_atualizacao": "2026-09-11",
+    "menor_preco": 959,
+    "ultimo_preco": 959,
+    "ultima_atualizacao": "2026-09-18",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-10T07:45:00-03:00",
-      "data_volta": "2026-11-26T19:30:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2900
+      "data_ida": "2026-11-10T14:50:00-03:00",
+      "data_volta": "2026-11-26T12:25:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3429
     }
   },
   "BR-TO": {
@@ -706,17 +708,18 @@
   "EU-Irlanda_Dublin": {
     "precos_recentes": [
       6302,
-      6074
+      6074,
+      6481
     ],
     "menor_preco": 6074,
-    "ultimo_preco": 6074,
-    "ultima_atualizacao": "2026-09-04",
+    "ultimo_preco": 6481,
+    "ultima_atualizacao": "2026-09-18",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-06-01T15:35:00-03:00",
-      "data_volta": "2027-06-04T10:45:00+01:00",
+      "data_ida": "2027-08-27T22:10:00-03:00",
+      "data_volta": "2027-09-01T10:45:00+01:00",
       "companhia": "TP",
-      "numero_voo": 76
+      "numero_voo": 72
     }
   },
   "EU-RepublicaTcheca_Praga": {
@@ -896,17 +899,18 @@
   },
   "EU-Polonia_Varsovia": {
     "precos_recentes": [
-      9033
+      9033,
+      5932
     ],
-    "menor_preco": 9033,
-    "ultimo_preco": 9033,
-    "ultima_atualizacao": "2026-08-28",
+    "menor_preco": 5932,
+    "ultimo_preco": 5932,
+    "ultima_atualizacao": "2026-09-18",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-08-28T21:55:00-03:00",
-      "data_volta": "2026-08-30T06:05:00+02:00",
-      "companhia": "KL",
-      "numero_voo": 706
+      "data_ida": "2027-02-16T13:20:00-03:00",
+      "data_volta": "2027-02-26T08:30:00+01:00",
+      "companhia": "AD",
+      "numero_voo": 2849
     }
   },
   "EU-Estonia_Talin": {
