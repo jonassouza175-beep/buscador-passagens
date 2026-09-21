@@ -453,17 +453,18 @@
       2585,
       2278,
       2439,
-      2404
+      2404,
+      2495
     ],
     "menor_preco": 2278,
-    "ultimo_preco": 2404,
-    "ultima_atualizacao": "2026-09-14",
+    "ultimo_preco": 2495,
+    "ultima_atualizacao": "2026-09-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-06-17T05:25:00-03:00",
-      "data_volta": "2027-07-02T10:30:00-05:00",
+      "data_ida": "2027-06-14T17:40:00-03:00",
+      "data_volta": "2027-06-30T02:10:00-05:00",
       "companhia": "LA",
-      "numero_voo": 3791
+      "numero_voo": 3699
     }
   },
   "BR-ES": {
@@ -474,17 +475,18 @@
       646,
       1319,
       1024,
-      1484
+      1484,
+      822
     ],
     "menor_preco": 600,
-    "ultimo_preco": 1484,
-    "ultima_atualizacao": "2026-09-14",
+    "ultimo_preco": 822,
+    "ultima_atualizacao": "2026-09-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-09-25T21:20:00-03:00",
-      "data_volta": "2026-09-27T18:30:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1858
+      "data_ida": "2026-11-19T07:00:00-03:00",
+      "data_volta": "2026-11-22T07:55:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3660
     }
   },
   "BR-PB": {
@@ -496,17 +498,18 @@
       887,
       1413,
       1651,
-      1484
+      1484,
+      1514
     ],
     "menor_preco": 887,
-    "ultimo_preco": 1484,
-    "ultima_atualizacao": "2026-09-14",
+    "ultimo_preco": 1514,
+    "ultima_atualizacao": "2026-09-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-14T22:25:00-03:00",
-      "data_volta": "2026-10-19T16:40:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3882
+      "data_ida": "2027-03-26T20:10:00-03:00",
+      "data_volta": "2027-04-15T11:50:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1379
     }
   },
   "EU-Espanha_Barcelona": {
@@ -518,17 +521,18 @@
       5821,
       4733,
       4865,
-      4108
+      4108,
+      4083
     ],
-    "menor_preco": 4108,
-    "ultimo_preco": 4108,
-    "ultima_atualizacao": "2026-09-14",
+    "menor_preco": 4083,
+    "ultimo_preco": 4083,
+    "ultima_atualizacao": "2026-09-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-27T21:05:00-03:00",
-      "data_volta": "2026-11-26T07:10:00+01:00",
-      "companhia": "LA",
-      "numero_voo": 3502
+      "data_ida": "2026-10-27T16:35:00-03:00",
+      "data_volta": "2026-11-26T06:45:00+01:00",
+      "companhia": "TP",
+      "numero_voo": 74
     }
   },
   "BR-AL": {
@@ -876,17 +880,18 @@
   },
   "EU-Alemanha_Munique": {
     "precos_recentes": [
-      7612
+      7612,
+      6914
     ],
-    "menor_preco": 7612,
-    "ultimo_preco": 7612,
-    "ultima_atualizacao": "2026-08-24",
+    "menor_preco": 6914,
+    "ultimo_preco": 6914,
+    "ultima_atualizacao": "2026-09-21",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2027-01-16T07:15:00-03:00",
-      "data_volta": "2027-02-01T18:55:00+01:00",
-      "companhia": "AD",
-      "numero_voo": 2876
+      "origem": "GIG",
+      "data_ida": "2026-10-01T22:00:00-03:00",
+      "data_volta": "2026-10-31T17:35:00+01:00",
+      "companhia": "AF",
+      "numero_voo": 443
     }
   },
   "EU-Montenegro_Podgorica": {
