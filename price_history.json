@@ -468,17 +468,18 @@
       2278,
       2439,
       2404,
-      2495
+      2495,
+      2331
     ],
     "menor_preco": 2278,
-    "ultimo_preco": 2495,
-    "ultima_atualizacao": "2026-09-21",
+    "ultimo_preco": 2331,
+    "ultima_atualizacao": "2026-09-28",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2027-06-14T17:40:00-03:00",
+      "origem": "SDU",
+      "data_ida": "2027-06-14T18:05:00-03:00",
       "data_volta": "2027-06-30T02:10:00-05:00",
       "companhia": "LA",
-      "numero_voo": 3699
+      "numero_voo": 3788
     }
   },
   "BR-ES": {
@@ -490,17 +491,18 @@
       1319,
       1024,
       1484,
-      822
+      822,
+      714
     ],
     "menor_preco": 600,
-    "ultimo_preco": 822,
-    "ultima_atualizacao": "2026-09-21",
+    "ultimo_preco": 714,
+    "ultima_atualizacao": "2026-09-28",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-19T07:00:00-03:00",
-      "data_volta": "2026-11-22T07:55:00-03:00",
+      "data_ida": "2026-12-30T13:00:00-03:00",
+      "data_volta": "2027-01-03T07:55:00-03:00",
       "companhia": "LA",
-      "numero_voo": 3660
+      "numero_voo": 3844
     }
   },
   "BR-PB": {
@@ -513,17 +515,18 @@
       1413,
       1651,
       1484,
-      1514
+      1514,
+      1191
     ],
     "menor_preco": 887,
-    "ultimo_preco": 1514,
-    "ultima_atualizacao": "2026-09-21",
+    "ultimo_preco": 1191,
+    "ultima_atualizacao": "2026-09-28",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-03-26T20:10:00-03:00",
-      "data_volta": "2027-04-15T11:50:00-03:00",
+      "data_ida": "2027-03-06T21:35:00-03:00",
+      "data_volta": "2027-03-14T02:15:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1379
+      "numero_voo": 2072
     }
   },
   "EU-Espanha_Barcelona": {
@@ -536,11 +539,12 @@
       4733,
       4865,
       4108,
-      4083
+      4083,
+      4269
     ],
     "menor_preco": 4083,
-    "ultimo_preco": 4083,
-    "ultima_atualizacao": "2026-09-21",
+    "ultimo_preco": 4269,
+    "ultima_atualizacao": "2026-09-28",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2026-10-27T16:35:00-03:00",
