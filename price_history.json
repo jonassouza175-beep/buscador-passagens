@@ -15,17 +15,18 @@
       997,
       1151,
       727,
-      954
+      954,
+      858
     ],
     "menor_preco": 727,
-    "ultimo_preco": 954,
-    "ultima_atualizacao": "2026-09-23",
+    "ultimo_preco": 858,
+    "ultima_atualizacao": "2026-09-30",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-02-23T19:05:00-03:00",
-      "data_volta": "2027-02-24T04:55:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2652
+      "data_ida": "2026-11-05T19:20:00-03:00",
+      "data_volta": "2026-11-13T04:30:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3875
     }
   },
   "BR-PE": {
@@ -44,17 +45,18 @@
       1011,
       1224,
       844,
-      874
+      874,
+      979
     ],
     "menor_preco": 778,
-    "ultimo_preco": 874,
-    "ultima_atualizacao": "2026-09-23",
+    "ultimo_preco": 979,
+    "ultima_atualizacao": "2026-09-30",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-03T14:50:00-03:00",
-      "data_volta": "2026-12-08T14:35:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1880
+      "data_ida": "2027-03-03T19:05:00-03:00",
+      "data_volta": "2027-03-12T12:45:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2652
     }
   },
   "EU-Suica_Zurique": {
@@ -1018,6 +1020,21 @@
       "data_volta": "2026-11-24T12:50:00-03:00",
       "companhia": "LA",
       "numero_voo": 3027
+    }
+  },
+  "EU-Finlandia_Helsinque": {
+    "precos_recentes": [
+      6685
+    ],
+    "menor_preco": 6685,
+    "ultimo_preco": 6685,
+    "ultima_atualizacao": "2026-09-30",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2027-08-01T22:10:00-03:00",
+      "data_volta": "2027-08-28T16:40:00+03:00",
+      "companhia": "AA",
+      "numero_voo": 904
     }
   }
 }
