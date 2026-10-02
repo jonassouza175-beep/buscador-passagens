@@ -677,17 +677,18 @@
       674,
       772,
       739,
-      1236
+      1236,
+      1185
     ],
     "menor_preco": 644,
-    "ultimo_preco": 1236,
-    "ultima_atualizacao": "2026-09-25",
+    "ultimo_preco": 1185,
+    "ultima_atualizacao": "2026-10-02",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-22T19:10:00-03:00",
-      "data_volta": "2026-10-25T02:50:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2652
+      "data_ida": "2026-10-29T21:20:00-03:00",
+      "data_volta": "2026-11-03T05:00:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1232
     }
   },
   "BR-MS": {
@@ -720,15 +721,16 @@
       1291,
       1079,
       959,
-      979
+      979,
+      1049
     ],
     "menor_preco": 959,
-    "ultimo_preco": 979,
-    "ultima_atualizacao": "2026-09-25",
+    "ultimo_preco": 1049,
+    "ultima_atualizacao": "2026-10-02",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-03-01T23:40:00-03:00",
-      "data_volta": "2027-03-08T18:15:00-03:00",
+      "data_ida": "2026-11-28T23:55:00-03:00",
+      "data_volta": "2026-12-06T03:40:00-03:00",
       "companhia": "G3",
       "numero_voo": 1834
     }
@@ -903,17 +905,18 @@
   },
   "EU-Chipre_Larnaca": {
     "precos_recentes": [
-      6375
+      6375,
+      6059
     ],
-    "menor_preco": 6375,
-    "ultimo_preco": 6375,
-    "ultima_atualizacao": "2026-08-21",
+    "menor_preco": 6059,
+    "ultimo_preco": 6059,
+    "ultima_atualizacao": "2026-10-02",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-23T15:35:00-03:00",
-      "data_volta": "2026-11-27T23:00:00+02:00",
-      "companhia": "AZ",
-      "numero_voo": 5241
+      "data_ida": "2026-10-24T23:00:00-03:00",
+      "data_volta": "2026-11-08T17:55:00+02:00",
+      "companhia": "TP",
+      "numero_voo": 67
     }
   },
   "EU-Alemanha_Munique": {
