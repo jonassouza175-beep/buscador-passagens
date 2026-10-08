@@ -124,17 +124,18 @@
       2729,
       1369,
       1466,
-      1882
+      1882,
+      984
     ],
-    "menor_preco": 1013,
-    "ultimo_preco": 1882,
-    "ultima_atualizacao": "2026-10-01",
+    "menor_preco": 984,
+    "ultimo_preco": 984,
+    "ultima_atualizacao": "2026-10-08",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-13T20:55:00-03:00",
-      "data_volta": "2027-01-16T16:45:00-04:00",
-      "companhia": "AD",
-      "numero_voo": 4406
+      "data_ida": "2027-02-06T22:05:00-03:00",
+      "data_volta": "2027-02-08T01:45:00-04:00",
+      "companhia": "LA",
+      "numero_voo": 4737
     }
   },
   "BR-MT": {
@@ -190,17 +191,18 @@
       1304,
       1187,
       1352,
-      1178
+      1178,
+      1407
     ],
     "menor_preco": 1132,
-    "ultimo_preco": 1178,
-    "ultima_atualizacao": "2026-10-01",
+    "ultimo_preco": 1407,
+    "ultima_atualizacao": "2026-10-08",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-07T19:05:00-03:00",
-      "data_volta": "2026-11-14T14:55:00-03:00",
+      "data_ida": "2026-11-07T20:55:00-03:00",
+      "data_volta": "2026-11-14T02:45:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2652
+      "numero_voo": 4406
     }
   },
   "EU-Austria_Viena": {
@@ -240,17 +242,18 @@
       6256,
       6192,
       5411,
-      6107
+      6107,
+      5174
     ],
-    "menor_preco": 5411,
-    "ultimo_preco": 6107,
-    "ultima_atualizacao": "2026-10-01",
+    "menor_preco": 5174,
+    "ultimo_preco": 5174,
+    "ultima_atualizacao": "2026-10-08",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-04-12T19:00:00-03:00",
-      "data_volta": "2027-04-23T08:10:00+03:00",
-      "companhia": "BA",
-      "numero_voo": 248
+      "data_ida": "2026-11-06T00:15:00-03:00",
+      "data_volta": "2026-11-22T09:30:00+03:00",
+      "companhia": "TP",
+      "numero_voo": 67
     }
   },
   "BR-CE": {
@@ -1076,6 +1079,21 @@
       "data_volta": "2026-11-14T11:30:00+01:00",
       "companhia": "LA",
       "numero_voo": 4799
+    }
+  },
+  "EU-Malta": {
+    "precos_recentes": [
+      4950
+    ],
+    "menor_preco": 4950,
+    "ultimo_preco": 4950,
+    "ultima_atualizacao": "2026-10-08",
+    "ultima_oferta": {
+      "origem": "GIG",
+      "data_ida": "2026-10-26T22:05:00-03:00",
+      "data_volta": "2026-11-05T17:05:00+01:00",
+      "companhia": "TP",
+      "numero_voo": 72
     }
   }
 }
