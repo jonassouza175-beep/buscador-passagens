@@ -698,17 +698,18 @@
       772,
       739,
       1236,
-      1185
+      1185,
+      919
     ],
     "menor_preco": 644,
-    "ultimo_preco": 1185,
-    "ultima_atualizacao": "2026-10-02",
+    "ultimo_preco": 919,
+    "ultima_atualizacao": "2026-10-09",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-29T21:20:00-03:00",
-      "data_volta": "2026-11-03T05:00:00-03:00",
+      "data_ida": "2027-03-15T16:00:00-03:00",
+      "data_volta": "2027-03-22T04:50:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1232
+      "numero_voo": 1882
     }
   },
   "BR-MS": {
@@ -742,15 +743,16 @@
       1079,
       959,
       979,
-      1049
+      1049,
+      1017
     ],
     "menor_preco": 959,
-    "ultimo_preco": 1049,
-    "ultima_atualizacao": "2026-10-02",
+    "ultimo_preco": 1017,
+    "ultima_atualizacao": "2026-10-09",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-28T23:55:00-03:00",
-      "data_volta": "2026-12-06T03:40:00-03:00",
+      "data_ida": "2026-10-30T23:55:00-03:00",
+      "data_volta": "2026-11-29T03:40:00-03:00",
       "companhia": "G3",
       "numero_voo": 1834
     }
