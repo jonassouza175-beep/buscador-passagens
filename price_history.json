@@ -268,17 +268,18 @@
       1293,
       1112,
       1102,
-      1071
+      1071,
+      965
     ],
     "menor_preco": 881,
-    "ultimo_preco": 1071,
-    "ultima_atualizacao": "2026-10-03",
+    "ultimo_preco": 965,
+    "ultima_atualizacao": "2026-10-10",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-04-01T22:40:00-03:00",
-      "data_volta": "2027-04-04T02:30:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 2058
+      "data_ida": "2027-05-10T05:10:00-03:00",
+      "data_volta": "2027-05-15T02:30:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3082
     }
   },
   "BR-RS": {
@@ -293,15 +294,16 @@
       887,
       961,
       823,
-      948
+      948,
+      767
     ],
     "menor_preco": 436,
-    "ultimo_preco": 948,
-    "ultima_atualizacao": "2026-10-03",
+    "ultimo_preco": 767,
+    "ultima_atualizacao": "2026-10-10",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-09T05:30:00-03:00",
-      "data_volta": "2027-01-11T21:05:00-03:00",
+      "data_ida": "2027-02-08T05:30:00-03:00",
+      "data_volta": "2027-02-13T21:10:00-03:00",
       "companhia": "AD",
       "numero_voo": 2901
     }
@@ -318,17 +320,18 @@
       4218,
       4669,
       4819,
-      4308
+      4308,
+      4165
     ],
-    "menor_preco": 4218,
-    "ultimo_preco": 4308,
-    "ultima_atualizacao": "2026-10-03",
+    "menor_preco": 4165,
+    "ultimo_preco": 4165,
+    "ultima_atualizacao": "2026-10-10",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-18T09:00:00-03:00",
-      "data_volta": "2026-11-22T13:00:00Z",
-      "companhia": "G3",
-      "numero_voo": 7020
+      "data_ida": "2026-11-05T15:00:00-03:00",
+      "data_volta": "2026-11-09T08:50:00Z",
+      "companhia": "LA",
+      "numero_voo": 3013
     }
   },
   "EU-Grecia_Atenas": {
@@ -801,17 +804,18 @@
       6434,
       6487,
       6495,
-      6085
+      6085,
+      6152
     ],
     "menor_preco": 6085,
-    "ultimo_preco": 6085,
-    "ultima_atualizacao": "2026-09-12",
+    "ultimo_preco": 6152,
+    "ultima_atualizacao": "2026-10-10",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-10T15:00:00-03:00",
-      "data_volta": "2026-10-15T06:50:00+02:00",
-      "companhia": "LA",
-      "numero_voo": 3429
+      "data_ida": "2026-12-06T20:45:00-03:00",
+      "data_volta": "2026-12-15T06:30:00+01:00",
+      "companhia": "AF",
+      "numero_voo": 485
     }
   },
   "EU-Hungria_Budapeste": {
