@@ -599,15 +599,16 @@
       1271,
       1153,
       992,
-      1144
+      1144,
+      1048
     ],
     "menor_preco": 789,
-    "ultimo_preco": 1144,
-    "ultima_atualizacao": "2026-10-06",
+    "ultimo_preco": 1048,
+    "ultima_atualizacao": "2026-10-13",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2026-12-12T16:10:00-03:00",
-      "data_volta": "2026-12-16T23:50:00-03:00",
+      "data_volta": "2026-12-16T04:10:00-03:00",
       "companhia": "G3",
       "numero_voo": 2082
     }
@@ -619,17 +620,18 @@
       860,
       1180,
       1245,
-      1009
+      1009,
+      1064
     ],
     "menor_preco": 860,
-    "ultimo_preco": 1009,
-    "ultima_atualizacao": "2026-09-22",
+    "ultimo_preco": 1064,
+    "ultima_atualizacao": "2026-10-13",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-18T07:15:00-03:00",
-      "data_volta": "2026-10-21T09:45:00-03:00",
+      "data_ida": "2027-02-05T21:25:00-03:00",
+      "data_volta": "2027-02-10T05:00:00-03:00",
       "companhia": "G3",
-      "numero_voo": 2060
+      "numero_voo": 2064
     }
   },
   "BR-PR": {
@@ -644,11 +646,12 @@
       610,
       750,
       505,
-      432
+      432,
+      499
     ],
     "menor_preco": 432,
-    "ultimo_preco": 432,
-    "ultima_atualizacao": "2026-10-06",
+    "ultimo_preco": 499,
+    "ultima_atualizacao": "2026-10-13",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2026-12-01T05:20:00-03:00",
@@ -669,17 +672,18 @@
       851,
       997,
       766,
-      730
+      730,
+      1002
     ],
     "menor_preco": 392,
-    "ultimo_preco": 730,
-    "ultima_atualizacao": "2026-10-06",
+    "ultimo_preco": 1002,
+    "ultima_atualizacao": "2026-10-13",
     "ultima_oferta": {
       "origem": "SDU",
-      "data_ida": "2027-02-01T10:45:00-03:00",
-      "data_volta": "2027-02-08T20:45:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3917
+      "data_ida": "2026-12-10T15:05:00-03:00",
+      "data_volta": "2026-12-16T16:20:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1027
     }
   },
   "EU-Noruega_Oslo": {
