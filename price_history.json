@@ -720,17 +720,18 @@
       739,
       1236,
       1185,
-      919
+      919,
+      999
     ],
     "menor_preco": 644,
-    "ultimo_preco": 919,
-    "ultima_atualizacao": "2026-10-09",
+    "ultimo_preco": 999,
+    "ultima_atualizacao": "2026-10-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-03-15T16:00:00-03:00",
-      "data_volta": "2027-03-22T04:50:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1882
+      "data_ida": "2026-12-09T17:40:00-03:00",
+      "data_volta": "2026-12-11T05:15:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3699
     }
   },
   "BR-MS": {
@@ -765,17 +766,18 @@
       959,
       979,
       1049,
-      1017
+      1017,
+      990
     ],
     "menor_preco": 959,
-    "ultimo_preco": 1017,
-    "ultima_atualizacao": "2026-10-09",
+    "ultimo_preco": 990,
+    "ultima_atualizacao": "2026-10-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-30T23:55:00-03:00",
-      "data_volta": "2026-11-29T03:40:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1834
+      "data_ida": "2026-11-22T05:25:00-03:00",
+      "data_volta": "2026-11-25T12:25:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3791
     }
   },
   "BR-TO": {
@@ -1003,17 +1005,18 @@
     "precos_recentes": [
       9033,
       5932,
-      4422
+      4422,
+      7139
     ],
     "menor_preco": 4422,
-    "ultimo_preco": 4422,
-    "ultima_atualizacao": "2026-09-25",
+    "ultimo_preco": 7139,
+    "ultima_atualizacao": "2026-10-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-22T16:35:00-03:00",
-      "data_volta": "2026-12-02T18:55:00+01:00",
+      "data_ida": "2026-12-25T00:15:00-03:00",
+      "data_volta": "2027-01-05T13:00:00+01:00",
       "companhia": "TP",
-      "numero_voo": 74
+      "numero_voo": 67
     }
   },
   "EU-Estonia_Talin": {
