@@ -511,17 +511,18 @@
       2495,
       2331,
       2257,
-      2378
+      2378,
+      2612
     ],
     "menor_preco": 2257,
-    "ultimo_preco": 2378,
-    "ultima_atualizacao": "2026-10-12",
+    "ultimo_preco": 2612,
+    "ultima_atualizacao": "2026-10-19",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-10-30T05:35:00-03:00",
-      "data_volta": "2026-11-20T14:45:00-05:00",
-      "companhia": "G3",
-      "numero_voo": 1837
+      "origem": "SDU",
+      "data_ida": "2027-06-14T19:20:00-03:00",
+      "data_volta": "2027-06-30T10:30:00-05:00",
+      "companhia": "AD",
+      "numero_voo": 2935
     }
   },
   "BR-ES": {
@@ -536,17 +537,18 @@
       822,
       714,
       1140,
-      493
+      493,
+      806
     ],
     "menor_preco": 493,
-    "ultimo_preco": 493,
-    "ultima_atualizacao": "2026-10-12",
+    "ultimo_preco": 806,
+    "ultima_atualizacao": "2026-10-19",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-31T08:40:00-03:00",
-      "data_volta": "2026-11-02T21:05:00-03:00",
+      "data_ida": "2026-11-06T19:05:00-03:00",
+      "data_volta": "2026-11-09T10:40:00-03:00",
       "companhia": "G3",
-      "numero_voo": 2098
+      "numero_voo": 1848
     }
   },
   "BR-PB": {
@@ -562,17 +564,18 @@
       1514,
       1191,
       1130,
-      1103
+      1103,
+      1206
     ],
     "menor_preco": 887,
-    "ultimo_preco": 1103,
-    "ultima_atualizacao": "2026-10-12",
+    "ultimo_preco": 1206,
+    "ultima_atualizacao": "2026-10-19",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-03-06T21:35:00-03:00",
-      "data_volta": "2027-03-14T03:40:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 2072
+      "data_ida": "2027-03-06T20:55:00-03:00",
+      "data_volta": "2027-03-20T16:10:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4406
     }
   },
   "EU-Espanha_Barcelona": {
