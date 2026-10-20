@@ -616,17 +616,18 @@
       1153,
       992,
       1144,
-      1048
+      1048,
+      1039
     ],
     "menor_preco": 789,
-    "ultimo_preco": 1048,
-    "ultima_atualizacao": "2026-10-13",
+    "ultimo_preco": 1039,
+    "ultima_atualizacao": "2026-10-20",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-12T16:10:00-03:00",
-      "data_volta": "2026-12-16T04:10:00-03:00",
+      "data_ida": "2026-11-13T14:15:00-03:00",
+      "data_volta": "2026-11-16T04:40:00-03:00",
       "companhia": "G3",
-      "numero_voo": 2082
+      "numero_voo": 2078
     }
   },
   "BR-GO": {
@@ -637,11 +638,12 @@
       1180,
       1245,
       1009,
-      1064
+      1064,
+      1278
     ],
     "menor_preco": 860,
-    "ultimo_preco": 1064,
-    "ultima_atualizacao": "2026-10-13",
+    "ultimo_preco": 1278,
+    "ultima_atualizacao": "2026-10-20",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2027-02-05T21:25:00-03:00",
@@ -663,17 +665,18 @@
       750,
       505,
       432,
-      499
+      499,
+      696
     ],
     "menor_preco": 432,
-    "ultimo_preco": 499,
-    "ultima_atualizacao": "2026-10-13",
+    "ultimo_preco": 696,
+    "ultima_atualizacao": "2026-10-20",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-01T05:20:00-03:00",
-      "data_volta": "2026-12-04T23:00:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4208
+      "data_ida": "2027-02-06T21:25:00-03:00",
+      "data_volta": "2027-04-01T07:30:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 2048
     }
   },
   "BR-SC": {
@@ -689,17 +692,18 @@
       997,
       766,
       730,
-      1002
+      1002,
+      1200
     ],
     "menor_preco": 392,
-    "ultimo_preco": 1002,
-    "ultima_atualizacao": "2026-10-13",
+    "ultimo_preco": 1200,
+    "ultima_atualizacao": "2026-10-20",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-12-10T15:05:00-03:00",
-      "data_volta": "2026-12-16T16:20:00-03:00",
+      "origem": "GIG",
+      "data_ida": "2027-01-02T03:50:00-03:00",
+      "data_volta": "2027-01-08T21:40:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1027
+      "numero_voo": 9018
     }
   },
   "EU-Noruega_Oslo": {
@@ -999,17 +1003,18 @@
     "precos_recentes": [
       6562,
       7495,
-      6612
+      6612,
+      5774
     ],
-    "menor_preco": 6562,
-    "ultimo_preco": 6612,
-    "ultima_atualizacao": "2026-09-15",
+    "menor_preco": 5774,
+    "ultimo_preco": 5774,
+    "ultima_atualizacao": "2026-10-20",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-11T00:15:00-03:00",
-      "data_volta": "2026-12-11T18:55:00+01:00",
-      "companhia": "TP",
-      "numero_voo": 67
+      "data_ida": "2026-11-01T14:50:00-03:00",
+      "data_volta": "2026-11-13T17:00:00+01:00",
+      "companhia": "LA",
+      "numero_voo": 8642
     }
   },
   "EU-Polonia_Varsovia": {
