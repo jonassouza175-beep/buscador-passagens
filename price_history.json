@@ -18,17 +18,18 @@
       954,
       858,
       931,
-      759
+      759,
+      827
     ],
     "menor_preco": 727,
-    "ultimo_preco": 759,
-    "ultima_atualizacao": "2026-10-14",
+    "ultimo_preco": 827,
+    "ultima_atualizacao": "2026-10-21",
     "ultima_oferta": {
       "origem": "SDU",
-      "data_ida": "2027-03-05T06:00:00-03:00",
-      "data_volta": "2027-03-12T17:20:00-03:00",
+      "data_ida": "2027-01-15T09:45:00-03:00",
+      "data_volta": "2027-02-21T17:20:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1813
+      "numero_voo": 1801
     }
   },
   "BR-PE": {
@@ -50,17 +51,18 @@
       874,
       979,
       915,
-      1256
+      1256,
+      1530
     ],
     "menor_preco": 778,
-    "ultimo_preco": 1256,
-    "ultima_atualizacao": "2026-10-14",
+    "ultimo_preco": 1530,
+    "ultima_atualizacao": "2026-10-21",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2027-02-22T12:00:00-03:00",
-      "data_volta": "2027-03-04T12:45:00-03:00",
+      "origem": "SDU",
+      "data_ida": "2026-11-06T11:25:00-03:00",
+      "data_volta": "2026-11-09T13:00:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2641
+      "numero_voo": 2630
     }
   },
   "EU-Suica_Zurique": {
@@ -76,17 +78,18 @@
       6259,
       6155,
       6026,
-      6079
+      6079,
+      8313
     ],
     "menor_preco": 5363,
-    "ultimo_preco": 6079,
-    "ultima_atualizacao": "2026-09-16",
+    "ultimo_preco": 8313,
+    "ultima_atualizacao": "2026-10-21",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-09-22T16:15:00-03:00",
-      "data_volta": "2026-10-06T06:55:00+02:00",
-      "companhia": "LH",
-      "numero_voo": 501
+      "origem": "SDU",
+      "data_ida": "2027-01-10T12:25:00-03:00",
+      "data_volta": "2027-01-31T11:45:00+01:00",
+      "companhia": "G3",
+      "numero_voo": 1051
     }
   },
   "EU-Servia_Belgrado": {
@@ -102,17 +105,18 @@
       5931,
       7377,
       6385,
-      5581
+      5581,
+      5924
     ],
     "menor_preco": 5581,
-    "ultimo_preco": 5581,
-    "ultima_atualizacao": "2026-10-14",
+    "ultimo_preco": 5924,
+    "ultima_atualizacao": "2026-10-21",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-11-01T06:20:00-03:00",
-      "data_volta": "2026-11-22T20:25:00+01:00",
+      "origem": "GIG",
+      "data_ida": "2026-11-22T12:00:00-03:00",
+      "data_volta": "2026-11-26T12:40:00+01:00",
       "companhia": "JJ",
-      "numero_voo": 3987
+      "numero_voo": 4673
     }
   },
   "BR-AM": {
