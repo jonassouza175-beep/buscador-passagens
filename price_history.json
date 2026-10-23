@@ -743,17 +743,18 @@
       1236,
       1185,
       919,
-      999
+      999,
+      1203
     ],
     "menor_preco": 644,
-    "ultimo_preco": 999,
-    "ultima_atualizacao": "2026-10-16",
+    "ultimo_preco": 1203,
+    "ultima_atualizacao": "2026-10-23",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-09T17:40:00-03:00",
-      "data_volta": "2026-12-11T05:15:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3699
+      "data_ida": "2026-11-24T16:15:00-03:00",
+      "data_volta": "2026-11-29T03:40:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 2082
     }
   },
   "BR-MS": {
@@ -763,17 +764,18 @@
       1291,
       1416,
       1403,
-      3402
+      3402,
+      2019
     ],
     "menor_preco": 812,
-    "ultimo_preco": 3402,
-    "ultima_atualizacao": "2026-09-25",
+    "ultimo_preco": 2019,
+    "ultima_atualizacao": "2026-10-23",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-09-25T13:20:00-03:00",
-      "data_volta": "2026-09-27T19:20:00-04:00",
+      "origem": "SDU",
+      "data_ida": "2026-11-01T06:20:00-03:00",
+      "data_volta": "2026-11-04T10:00:00-04:00",
       "companhia": "AD",
-      "numero_voo": 2849
+      "numero_voo": 2666
     }
   },
   "BR-RN": {
@@ -789,17 +791,18 @@
       979,
       1049,
       1017,
-      990
+      990,
+      1680
     ],
     "menor_preco": 959,
-    "ultimo_preco": 990,
-    "ultima_atualizacao": "2026-10-16",
+    "ultimo_preco": 1680,
+    "ultima_atualizacao": "2026-10-23",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-22T05:25:00-03:00",
-      "data_volta": "2026-11-25T12:25:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3791
+      "data_ida": "2027-01-13T12:00:00-03:00",
+      "data_volta": "2027-01-19T18:10:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2641
     }
   },
   "BR-TO": {
@@ -808,17 +811,18 @@
       957,
       1071,
       1769,
-      2066
+      2066,
+      938
     ],
-    "menor_preco": 957,
-    "ultimo_preco": 2066,
-    "ultima_atualizacao": "2026-09-25",
+    "menor_preco": 938,
+    "ultimo_preco": 938,
+    "ultima_atualizacao": "2026-10-23",
     "ultima_oferta": {
       "origem": "SDU",
-      "data_ida": "2027-07-16T18:05:00-03:00",
-      "data_volta": "2027-07-18T06:10:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3788
+      "data_ida": "2026-11-05T21:10:00-03:00",
+      "data_volta": "2026-11-12T03:45:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2669
     }
   },
   "EU-Irlanda_Dublin": {
