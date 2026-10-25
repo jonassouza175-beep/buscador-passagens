@@ -388,17 +388,18 @@
       538,
       502,
       647,
-      820
+      820,
+      703
     ],
     "menor_preco": 394,
-    "ultimo_preco": 820,
-    "ultima_atualizacao": "2026-10-18",
+    "ultimo_preco": 703,
+    "ultima_atualizacao": "2026-10-25",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-13T11:10:00-03:00",
-      "data_volta": "2026-11-16T13:25:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1844
+      "data_ida": "2027-01-29T17:05:00-03:00",
+      "data_volta": "2027-02-01T19:30:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3731
     }
   },
   "BR-PA": {
@@ -412,17 +413,18 @@
       1688,
       1226,
       1044,
-      1165
+      1165,
+      957
     ],
-    "menor_preco": 974,
-    "ultimo_preco": 1165,
-    "ultima_atualizacao": "2026-10-18",
+    "menor_preco": 957,
+    "ultimo_preco": 957,
+    "ultima_atualizacao": "2026-10-25",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-11-17T11:50:00-03:00",
-      "data_volta": "2026-11-24T04:35:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3773
+      "origem": "GIG",
+      "data_ida": "2026-11-11T14:45:00-03:00",
+      "data_volta": "2026-11-17T01:40:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4205
     }
   },
   "BR-RO": {
@@ -456,17 +458,18 @@
       4468,
       4372,
       4290,
-      4523
+      4523,
+      4052
     ],
     "menor_preco": 3810,
-    "ultimo_preco": 4523,
-    "ultima_atualizacao": "2026-10-18",
+    "ultimo_preco": 4052,
+    "ultima_atualizacao": "2026-10-25",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-16T20:30:00-03:00",
-      "data_volta": "2026-11-29T12:30:00+01:00",
-      "companhia": "IB",
-      "numero_voo": 270
+      "data_ida": "2027-03-06T07:45:00-03:00",
+      "data_volta": "2027-03-16T01:25:00+01:00",
+      "companhia": "AV",
+      "numero_voo": 260
     }
   },
   "EU-Alemanha_Frankfurt": {
@@ -874,17 +877,18 @@
       9098,
       4822,
       5023,
-      7293
+      7293,
+      5510
     ],
     "menor_preco": 4822,
-    "ultimo_preco": 7293,
-    "ultima_atualizacao": "2026-10-18",
+    "ultimo_preco": 5510,
+    "ultima_atualizacao": "2026-10-25",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-09-08T22:10:00-03:00",
-      "data_volta": "2027-09-13T14:45:00+02:00",
-      "companhia": "TP",
-      "numero_voo": 72
+      "data_ida": "2027-02-02T21:35:00-03:00",
+      "data_volta": "2027-02-15T16:00:00+01:00",
+      "companhia": "G3",
+      "numero_voo": 5890
     }
   },
   "EU-Belgica_Bruxelas": {
