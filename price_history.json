@@ -553,17 +553,18 @@
       714,
       1140,
       493,
-      806
+      806,
+      856
     ],
     "menor_preco": 493,
-    "ultimo_preco": 806,
-    "ultima_atualizacao": "2026-10-19",
+    "ultimo_preco": 856,
+    "ultima_atualizacao": "2026-10-26",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-06T19:05:00-03:00",
-      "data_volta": "2026-11-09T10:40:00-03:00",
+      "data_ida": "2026-11-08T06:05:00-03:00",
+      "data_volta": "2026-11-14T10:25:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1848
+      "numero_voo": 1840
     }
   },
   "BR-PB": {
@@ -580,11 +581,12 @@
       1191,
       1130,
       1103,
-      1206
+      1206,
+      1022
     ],
     "menor_preco": 887,
-    "ultimo_preco": 1206,
-    "ultima_atualizacao": "2026-10-19",
+    "ultimo_preco": 1022,
+    "ultima_atualizacao": "2026-10-26",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2027-03-06T20:55:00-03:00",
@@ -605,15 +607,16 @@
       4108,
       4083,
       4269,
-      4092
+      4092,
+      4177
     ],
     "menor_preco": 4083,
-    "ultimo_preco": 4092,
-    "ultima_atualizacao": "2026-10-05",
+    "ultimo_preco": 4177,
+    "ultima_atualizacao": "2026-10-26",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-10-27T21:05:00-03:00",
-      "data_volta": "2026-11-26T06:45:00+01:00",
+      "data_ida": "2027-02-21T21:05:00-03:00",
+      "data_volta": "2027-03-31T13:10:00+02:00",
       "companhia": "LA",
       "numero_voo": 3502
     }
