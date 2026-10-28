@@ -19,17 +19,18 @@
       858,
       931,
       759,
-      827
+      827,
+      914
     ],
     "menor_preco": 727,
-    "ultimo_preco": 827,
-    "ultima_atualizacao": "2026-10-21",
+    "ultimo_preco": 914,
+    "ultima_atualizacao": "2026-10-28",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2027-01-15T09:45:00-03:00",
-      "data_volta": "2027-02-21T17:20:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1801
+      "origem": "GIG",
+      "data_ida": "2027-01-12T18:15:00-03:00",
+      "data_volta": "2027-01-17T04:55:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 2883
     }
   },
   "BR-PE": {
@@ -52,17 +53,18 @@
       979,
       915,
       1256,
-      1530
+      1530,
+      1213
     ],
     "menor_preco": 778,
-    "ultimo_preco": 1530,
-    "ultima_atualizacao": "2026-10-21",
+    "ultimo_preco": 1213,
+    "ultima_atualizacao": "2026-10-28",
     "ultima_oferta": {
       "origem": "SDU",
-      "data_ida": "2026-11-06T11:25:00-03:00",
-      "data_volta": "2026-11-09T13:00:00-03:00",
+      "data_ida": "2026-11-27T10:05:00-03:00",
+      "data_volta": "2026-12-17T10:00:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2630
+      "numero_voo": 2898
     }
   },
   "EU-Suica_Zurique": {
@@ -1109,32 +1111,34 @@
   },
   "BR-AP": {
     "precos_recentes": [
-      1363
+      1363,
+      1724
     ],
     "menor_preco": 1363,
-    "ultimo_preco": 1363,
-    "ultima_atualizacao": "2026-09-23",
+    "ultimo_preco": 1724,
+    "ultima_atualizacao": "2026-10-28",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2026-11-10T12:20:00-03:00",
-      "data_volta": "2026-11-24T12:50:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3027
+      "origem": "SDU",
+      "data_ida": "2027-05-10T17:35:00-03:00",
+      "data_volta": "2027-05-29T14:20:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 1811
     }
   },
   "EU-Finlandia_Helsinque": {
     "precos_recentes": [
-      6685
+      6685,
+      6781
     ],
     "menor_preco": 6685,
-    "ultimo_preco": 6685,
-    "ultima_atualizacao": "2026-09-30",
+    "ultimo_preco": 6781,
+    "ultima_atualizacao": "2026-10-28",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-08-01T22:10:00-03:00",
-      "data_volta": "2027-08-28T16:40:00+03:00",
+      "data_ida": "2027-01-20T22:30:00-03:00",
+      "data_volta": "2027-02-20T16:50:00+02:00",
       "companhia": "AA",
-      "numero_voo": 904
+      "numero_voo": 936
     }
   },
   "EU-Albania_Tirana": {
