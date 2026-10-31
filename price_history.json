@@ -294,17 +294,18 @@
       1071,
       965,
       1141,
-      1103
+      1103,
+      1376
     ],
     "menor_preco": 881,
-    "ultimo_preco": 1103,
-    "ultima_atualizacao": "2026-10-24",
+    "ultimo_preco": 1376,
+    "ultima_atualizacao": "2026-10-31",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-14T19:05:00-03:00",
-      "data_volta": "2027-01-21T05:10:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2652
+      "data_ida": "2027-05-10T05:10:00-03:00",
+      "data_volta": "2027-05-15T11:25:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3082
     }
   },
   "BR-RS": {
@@ -322,15 +323,16 @@
       948,
       767,
       809,
-      685
+      685,
+      703
     ],
     "menor_preco": 436,
-    "ultimo_preco": 685,
-    "ultima_atualizacao": "2026-10-24",
+    "ultimo_preco": 703,
+    "ultima_atualizacao": "2026-10-31",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-05-08T05:30:00-03:00",
-      "data_volta": "2027-05-15T21:05:00-03:00",
+      "data_ida": "2027-01-30T05:30:00-03:00",
+      "data_volta": "2027-02-01T15:15:00-03:00",
       "companhia": "AD",
       "numero_voo": 2901
     }
@@ -350,17 +352,18 @@
       4308,
       4165,
       4051,
-      4075
+      4075,
+      3764
     ],
-    "menor_preco": 4051,
-    "ultimo_preco": 4075,
-    "ultima_atualizacao": "2026-10-24",
+    "menor_preco": 3764,
+    "ultimo_preco": 3764,
+    "ultima_atualizacao": "2026-10-31",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-12T13:20:00-03:00",
-      "data_volta": "2026-11-18T23:30:00Z",
-      "companhia": "AD",
-      "numero_voo": 2849
+      "data_ida": "2027-01-19T21:35:00-03:00",
+      "data_volta": "2027-02-10T23:30:00Z",
+      "companhia": "G3",
+      "numero_voo": 7020
     }
   },
   "EU-Grecia_Atenas": {
