@@ -6,7 +6,6 @@
       791,
       791,
       791,
-      791,
       1048,
       1068,
       1017,
@@ -20,22 +19,22 @@
       931,
       759,
       827,
-      914
+      914,
+      974
     ],
     "menor_preco": 727,
-    "ultimo_preco": 914,
-    "ultima_atualizacao": "2026-10-28",
+    "ultimo_preco": 974,
+    "ultima_atualizacao": "2026-11-04",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-12T18:15:00-03:00",
-      "data_volta": "2027-01-17T04:55:00-03:00",
+      "data_ida": "2027-01-12T14:45:00-03:00",
+      "data_volta": "2027-01-17T23:55:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2883
+      "numero_voo": 4205
     }
   },
   "BR-PE": {
     "precos_recentes": [
-      1025,
       1025,
       1025,
       1025,
@@ -54,17 +53,18 @@
       915,
       1256,
       1530,
-      1213
+      1213,
+      1041
     ],
     "menor_preco": 778,
-    "ultimo_preco": 1213,
-    "ultima_atualizacao": "2026-10-28",
+    "ultimo_preco": 1041,
+    "ultima_atualizacao": "2026-11-04",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-11-27T10:05:00-03:00",
-      "data_volta": "2026-12-17T10:00:00-03:00",
+      "origem": "GIG",
+      "data_ida": "2027-01-15T05:00:00-03:00",
+      "data_volta": "2027-01-31T23:50:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2898
+      "numero_voo": 2926
     }
   },
   "EU-Suica_Zurique": {
@@ -108,17 +108,18 @@
       7377,
       6385,
       5581,
-      5924
+      5924,
+      6423
     ],
     "menor_preco": 5581,
-    "ultimo_preco": 5924,
-    "ultima_atualizacao": "2026-10-21",
+    "ultimo_preco": 6423,
+    "ultima_atualizacao": "2026-11-04",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-22T12:00:00-03:00",
-      "data_volta": "2026-11-26T12:40:00+01:00",
-      "companhia": "JJ",
-      "numero_voo": 4673
+      "data_ida": "2027-03-30T16:40:00-03:00",
+      "data_volta": "2027-04-01T18:15:00+02:00",
+      "companhia": "AV",
+      "numero_voo": 146
     }
   },
   "BR-AM": {
