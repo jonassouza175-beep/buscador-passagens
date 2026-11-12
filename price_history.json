@@ -139,17 +139,18 @@
       1695,
       2264,
       1534,
-      1167
+      1167,
+      1606
     ],
     "menor_preco": 984,
-    "ultimo_preco": 1167,
-    "ultima_atualizacao": "2026-11-05",
+    "ultimo_preco": 1606,
+    "ultima_atualizacao": "2026-11-12",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-02-12T22:05:00-03:00",
-      "data_volta": "2027-02-14T01:45:00-04:00",
-      "companhia": "LA",
-      "numero_voo": 4737
+      "data_ida": "2027-03-01T20:55:00-03:00",
+      "data_volta": "2027-03-04T16:40:00-04:00",
+      "companhia": "AD",
+      "numero_voo": 4406
     }
   },
   "BR-MT": {
@@ -160,17 +161,18 @@
       1207,
       1665,
       1484,
-      1511
+      1511,
+      1060
     ],
-    "menor_preco": 1207,
-    "ultimo_preco": 1511,
-    "ultima_atualizacao": "2026-10-29",
+    "menor_preco": 1060,
+    "ultimo_preco": 1060,
+    "ultima_atualizacao": "2026-11-12",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-07-04T17:25:00-03:00",
-      "data_volta": "2027-07-11T04:10:00-04:00",
+      "data_ida": "2027-02-17T18:00:00-03:00",
+      "data_volta": "2027-02-19T16:30:00-04:00",
       "companhia": "G3",
-      "numero_voo": 1962
+      "numero_voo": 1835
     }
   },
   "BR-PI": {
@@ -187,17 +189,18 @@
       1245,
       1290,
       1730,
-      1395
+      1395,
+      1116
     ],
     "menor_preco": 1051,
-    "ultimo_preco": 1395,
-    "ultima_atualizacao": "2026-11-05",
+    "ultimo_preco": 1116,
+    "ultima_atualizacao": "2026-11-12",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-11-20T21:10:00-03:00",
-      "data_volta": "2026-11-26T20:30:00-03:00",
+      "origem": "GIG",
+      "data_ida": "2027-01-12T08:00:00-03:00",
+      "data_volta": "2027-01-26T20:45:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2669
+      "numero_voo": 2900
     }
   },
   "BR-SE": {
@@ -271,17 +274,18 @@
       5322,
       5330,
       5601,
-      5206
+      5206,
+      6356
     ],
     "menor_preco": 5174,
-    "ultimo_preco": 5206,
-    "ultima_atualizacao": "2026-11-05",
+    "ultimo_preco": 6356,
+    "ultima_atualizacao": "2026-11-12",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-02-17T07:45:00-03:00",
-      "data_volta": "2027-02-24T11:30:00+03:00",
-      "companhia": "AV",
-      "numero_voo": 260
+      "data_ida": "2027-03-15T16:35:00-03:00",
+      "data_volta": "2027-03-22T23:35:00+03:00",
+      "companhia": "TP",
+      "numero_voo": 74
     }
   },
   "BR-CE": {
