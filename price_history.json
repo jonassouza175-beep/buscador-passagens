@@ -592,17 +592,18 @@
       806,
       856,
       484,
-      523
+      523,
+      441
     ],
-    "menor_preco": 484,
-    "ultimo_preco": 523,
-    "ultima_atualizacao": "2026-11-09",
+    "menor_preco": 441,
+    "ultimo_preco": 441,
+    "ultima_atualizacao": "2026-11-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-11T15:25:00-03:00",
-      "data_volta": "2026-12-13T10:25:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 1377
+      "data_ida": "2026-12-11T07:00:00-03:00",
+      "data_volta": "2026-12-13T22:20:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3660
     }
   },
   "BR-PB": {
@@ -622,17 +623,18 @@
       1206,
       1022,
       1002,
-      1207
+      1207,
+      1065
     ],
     "menor_preco": 887,
-    "ultimo_preco": 1207,
-    "ultima_atualizacao": "2026-11-09",
+    "ultimo_preco": 1065,
+    "ultima_atualizacao": "2026-11-16",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-19T19:05:00-03:00",
-      "data_volta": "2027-02-02T04:15:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2652
+      "data_ida": "2027-05-21T07:35:00-03:00",
+      "data_volta": "2027-05-29T16:35:00-03:00",
+      "companhia": "G3",
+      "numero_voo": 2068
     }
   },
   "EU-Espanha_Barcelona": {
@@ -1074,17 +1076,18 @@
     "precos_recentes": [
       7612,
       6914,
-      4972
+      4972,
+      8335
     ],
     "menor_preco": 4972,
-    "ultimo_preco": 4972,
-    "ultima_atualizacao": "2026-10-12",
+    "ultimo_preco": 8335,
+    "ultima_atualizacao": "2026-11-16",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2026-11-01T10:05:00-03:00",
-      "data_volta": "2026-11-30T06:05:00+01:00",
-      "companhia": "LA",
-      "numero_voo": 3975
+      "origem": "GIG",
+      "data_ida": "2026-12-22T18:40:00-03:00",
+      "data_volta": "2026-12-28T18:55:00+01:00",
+      "companhia": "G3",
+      "numero_voo": 2338
     }
   },
   "EU-Montenegro_Podgorica": {
@@ -1159,17 +1162,18 @@
     "precos_recentes": [
       2875,
       1603,
-      1791
+      1791,
+      2101
     ],
     "menor_preco": 1603,
-    "ultimo_preco": 1791,
-    "ultima_atualizacao": "2026-11-09",
+    "ultimo_preco": 2101,
+    "ultima_atualizacao": "2026-11-16",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2027-05-01T19:05:00-03:00",
-      "data_volta": "2027-05-04T14:05:00-04:00",
+      "origem": "SDU",
+      "data_ida": "2027-02-03T19:05:00-03:00",
+      "data_volta": "2027-03-01T01:50:00-04:00",
       "companhia": "AD",
-      "numero_voo": 2652
+      "numero_voo": 2903
     }
   },
   "BR-AP": {
