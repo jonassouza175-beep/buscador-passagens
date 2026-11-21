@@ -313,17 +313,18 @@
       1103,
       1376,
       1329,
-      1074
+      1074,
+      1104
     ],
     "menor_preco": 881,
-    "ultimo_preco": 1074,
-    "ultima_atualizacao": "2026-11-14",
+    "ultimo_preco": 1104,
+    "ultima_atualizacao": "2026-11-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-02-13T14:00:00-03:00",
-      "data_volta": "2027-02-20T02:30:00-03:00",
+      "data_ida": "2027-02-13T19:00:00-03:00",
+      "data_volta": "2027-02-20T03:15:00-03:00",
       "companhia": "AD",
-      "numero_voo": 2641
+      "numero_voo": 2652
     }
   },
   "BR-RS": {
@@ -344,17 +345,18 @@
       685,
       703,
       601,
-      579
+      579,
+      774
     ],
     "menor_preco": 436,
-    "ultimo_preco": 579,
-    "ultima_atualizacao": "2026-11-14",
+    "ultimo_preco": 774,
+    "ultima_atualizacao": "2026-11-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-02-19T05:30:00-03:00",
-      "data_volta": "2027-02-21T08:25:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 2901
+      "data_ida": "2027-01-30T22:05:00-03:00",
+      "data_volta": "2027-02-01T12:05:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 4737
     }
   },
   "EU-Portugal_Lisboa": {
@@ -375,17 +377,18 @@
       4075,
       3764,
       4231,
-      4299
+      4299,
+      4385
     ],
     "menor_preco": 3764,
-    "ultimo_preco": 4299,
-    "ultima_atualizacao": "2026-11-14",
+    "ultimo_preco": 4385,
+    "ultima_atualizacao": "2026-11-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-03-04T09:40:00-03:00",
-      "data_volta": "2027-03-20T12:05:00Z",
-      "companhia": "AD",
-      "numero_voo": 4028
+      "data_ida": "2027-04-09T08:00:00-03:00",
+      "data_volta": "2027-04-24T13:20:00+01:00",
+      "companhia": "G3",
+      "numero_voo": 7020
     }
   },
   "EU-Grecia_Atenas": {
@@ -939,17 +942,18 @@
       6495,
       6085,
       6152,
-      5473
+      5473,
+      6573
     ],
     "menor_preco": 5473,
-    "ultimo_preco": 5473,
-    "ultima_atualizacao": "2026-10-17",
+    "ultimo_preco": 6573,
+    "ultima_atualizacao": "2026-11-21",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-05T16:35:00-03:00",
-      "data_volta": "2026-11-12T17:05:00+01:00",
-      "companhia": "TP",
-      "numero_voo": 74
+      "data_ida": "2027-03-25T16:50:00-03:00",
+      "data_volta": "2027-04-10T09:05:00+02:00",
+      "companhia": "AV",
+      "numero_voo": 146
     }
   },
   "EU-Hungria_Budapeste": {
@@ -1042,17 +1046,18 @@
   },
   "EU-Luxemburgo": {
     "precos_recentes": [
-      6230
+      6230,
+      5992
     ],
-    "menor_preco": 6230,
-    "ultimo_preco": 6230,
-    "ultima_atualizacao": "2026-08-15",
+    "menor_preco": 5992,
+    "ultimo_preco": 5992,
+    "ultima_atualizacao": "2026-11-21",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2027-05-01T15:00:00-03:00",
-      "data_volta": "2027-05-04T17:10:00+02:00",
-      "companhia": "JJ",
-      "numero_voo": 3429
+      "origem": "SDU",
+      "data_ida": "2027-01-24T14:45:00-03:00",
+      "data_volta": "2027-02-07T21:50:00+01:00",
+      "companhia": "AD",
+      "numero_voo": 2916
     }
   },
   "EU-Eslovaquia_Bratislava": {
