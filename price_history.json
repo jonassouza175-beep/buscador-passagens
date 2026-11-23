@@ -607,11 +607,12 @@
       856,
       484,
       523,
-      441
+      441,
+      671
     ],
     "menor_preco": 441,
-    "ultimo_preco": 441,
-    "ultima_atualizacao": "2026-11-16",
+    "ultimo_preco": 671,
+    "ultima_atualizacao": "2026-11-23",
     "ultima_oferta": {
       "origem": "GIG",
       "data_ida": "2026-12-11T07:00:00-03:00",
@@ -638,17 +639,18 @@
       1022,
       1002,
       1207,
-      1065
+      1065,
+      1225
     ],
     "menor_preco": 887,
-    "ultimo_preco": 1065,
-    "ultima_atualizacao": "2026-11-16",
+    "ultimo_preco": 1225,
+    "ultima_atualizacao": "2026-11-23",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-05-21T07:35:00-03:00",
-      "data_volta": "2027-05-29T16:35:00-03:00",
-      "companhia": "G3",
-      "numero_voo": 2068
+      "data_ida": "2027-02-03T17:00:00-03:00",
+      "data_volta": "2027-02-11T16:10:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4087
     }
   },
   "EU-Espanha_Barcelona": {
@@ -665,17 +667,18 @@
       4269,
       4092,
       4177,
-      5455
+      5455,
+      4974
     ],
     "menor_preco": 4083,
-    "ultimo_preco": 5455,
-    "ultima_atualizacao": "2026-11-02",
+    "ultimo_preco": 4974,
+    "ultima_atualizacao": "2026-11-23",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-05-22T15:35:00-03:00",
-      "data_volta": "2027-05-29T22:40:00+02:00",
-      "companhia": "TP",
-      "numero_voo": 76
+      "data_ida": "2026-11-30T15:35:00-03:00",
+      "data_volta": "2026-12-07T17:15:00+01:00",
+      "companhia": "AZ",
+      "numero_voo": 673
     }
   },
   "BR-AL": {
@@ -1186,17 +1189,18 @@
       2875,
       1603,
       1791,
-      2101
+      2101,
+      2549
     ],
     "menor_preco": 1603,
-    "ultimo_preco": 2101,
-    "ultima_atualizacao": "2026-11-16",
+    "ultimo_preco": 2549,
+    "ultima_atualizacao": "2026-11-23",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2027-02-03T19:05:00-03:00",
-      "data_volta": "2027-03-01T01:50:00-04:00",
+      "origem": "GIG",
+      "data_ida": "2026-12-21T17:00:00-03:00",
+      "data_volta": "2027-01-04T01:50:00-04:00",
       "companhia": "AD",
-      "numero_voo": 2903
+      "numero_voo": 4087
     }
   },
   "BR-AP": {
