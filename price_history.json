@@ -698,17 +698,18 @@
       1039,
       1075,
       1057,
-      964
+      964,
+      1090
     ],
     "menor_preco": 789,
-    "ultimo_preco": 964,
-    "ultima_atualizacao": "2026-11-10",
+    "ultimo_preco": 1090,
+    "ultima_atualizacao": "2026-11-24",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-15T08:30:00-03:00",
-      "data_volta": "2026-12-19T23:50:00-03:00",
+      "data_ida": "2027-09-28T22:15:00-03:00",
+      "data_volta": "2027-10-04T15:55:00-03:00",
       "companhia": "LA",
-      "numero_voo": 3367
+      "numero_voo": 3890
     }
   },
   "BR-GO": {
@@ -753,15 +754,16 @@
       550,
       669,
       524,
-      944
+      944,
+      1047
     ],
     "menor_preco": 432,
-    "ultimo_preco": 944,
-    "ultima_atualizacao": "2026-11-17",
+    "ultimo_preco": 1047,
+    "ultima_atualizacao": "2026-11-24",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-12-14T05:20:00-03:00",
-      "data_volta": "2026-12-23T20:35:00-03:00",
+      "data_ida": "2026-12-01T05:20:00-03:00",
+      "data_volta": "2026-12-02T17:00:00-03:00",
       "companhia": "AD",
       "numero_voo": 4208
     }
@@ -784,17 +786,18 @@
       1208,
       732,
       609,
-      550
+      550,
+      633
     ],
     "menor_preco": 392,
-    "ultimo_preco": 550,
-    "ultima_atualizacao": "2026-11-17",
+    "ultimo_preco": 633,
+    "ultima_atualizacao": "2026-11-24",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-02-25T16:40:00-03:00",
-      "data_volta": "2027-03-02T12:15:00-03:00",
+      "data_ida": "2027-02-08T21:25:00-03:00",
+      "data_volta": "2027-02-22T20:15:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1449
+      "numero_voo": 2070
     }
   },
   "EU-Noruega_Oslo": {
@@ -988,17 +991,18 @@
   "EU-Belgica_Bruxelas": {
     "precos_recentes": [
       5099,
-      7584
+      7584,
+      6091
     ],
     "menor_preco": 5099,
-    "ultimo_preco": 7584,
-    "ultima_atualizacao": "2026-08-25",
+    "ultimo_preco": 6091,
+    "ultima_atualizacao": "2026-11-24",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-06T08:05:00-03:00",
-      "data_volta": "2027-01-20T20:15:00+01:00",
+      "data_ida": "2027-04-12T12:15:00-03:00",
+      "data_volta": "2027-04-22T13:05:00+02:00",
       "companhia": "LA",
-      "numero_voo": 3244
+      "numero_voo": 4673
     }
   },
   "EU-Eslovenia_Liubliana": {
