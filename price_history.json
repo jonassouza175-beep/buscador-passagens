@@ -144,17 +144,18 @@
       1534,
       1167,
       1606,
-      1180
+      1180,
+      850
     ],
-    "menor_preco": 984,
-    "ultimo_preco": 1180,
-    "ultima_atualizacao": "2026-11-19",
+    "menor_preco": 850,
+    "ultimo_preco": 850,
+    "ultima_atualizacao": "2026-11-26",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-05-08T20:55:00-03:00",
-      "data_volta": "2027-05-10T02:35:00-04:00",
-      "companhia": "AD",
-      "numero_voo": 4406
+      "data_ida": "2027-04-17T21:30:00-03:00",
+      "data_volta": "2027-04-18T03:45:00-04:00",
+      "companhia": "G3",
+      "numero_voo": 2034
     }
   },
   "BR-MT": {
@@ -167,17 +168,18 @@
       1484,
       1511,
       1060,
-      1036
+      1036,
+      1017
     ],
-    "menor_preco": 1036,
-    "ultimo_preco": 1036,
-    "ultima_atualizacao": "2026-11-19",
+    "menor_preco": 1017,
+    "ultimo_preco": 1017,
+    "ultima_atualizacao": "2026-11-26",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-06-15T22:05:00-03:00",
-      "data_volta": "2027-06-29T16:20:00-04:00",
+      "data_ida": "2027-06-15T20:30:00-03:00",
+      "data_volta": "2027-06-29T11:20:00-04:00",
       "companhia": "LA",
-      "numero_voo": 3890
+      "numero_voo": 4729
     }
   },
   "BR-PI": {
@@ -196,17 +198,18 @@
       1730,
       1395,
       1116,
-      1666
+      1666,
+      1719
     ],
     "menor_preco": 1051,
-    "ultimo_preco": 1666,
-    "ultima_atualizacao": "2026-11-19",
+    "ultimo_preco": 1719,
+    "ultima_atualizacao": "2026-11-26",
     "ultima_oferta": {
-      "origem": "SDU",
-      "data_ida": "2027-01-12T10:10:00-03:00",
-      "data_volta": "2027-01-26T03:30:00-03:00",
-      "companhia": "LA",
-      "numero_voo": 3975
+      "origem": "GIG",
+      "data_ida": "2027-01-06T17:00:00-03:00",
+      "data_volta": "2027-01-25T23:40:00-03:00",
+      "companhia": "AD",
+      "numero_voo": 4087
     }
   },
   "BR-SE": {
@@ -226,17 +229,18 @@
       1794,
       2370,
       2002,
-      1706
+      1706,
+      1805
     ],
     "menor_preco": 1132,
-    "ultimo_preco": 1706,
-    "ultima_atualizacao": "2026-11-19",
+    "ultimo_preco": 1805,
+    "ultima_atualizacao": "2026-11-26",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-01-01T10:40:00-03:00",
-      "data_volta": "2027-01-11T02:40:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4028
+      "data_ida": "2027-07-16T12:10:00-03:00",
+      "data_volta": "2027-07-23T17:20:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3027
     }
   },
   "EU-Austria_Viena": {
@@ -284,17 +288,18 @@
       5601,
       5206,
       6356,
-      7250
+      7250,
+      6583
     ],
     "menor_preco": 5174,
-    "ultimo_preco": 7250,
-    "ultima_atualizacao": "2026-11-19",
+    "ultimo_preco": 6583,
+    "ultima_atualizacao": "2026-11-26",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2027-02-09T15:35:00-03:00",
-      "data_volta": "2027-02-21T14:05:00+03:00",
-      "companhia": "AZ",
-      "numero_voo": 673
+      "origem": "SDU",
+      "data_ida": "2027-02-12T15:55:00-03:00",
+      "data_volta": "2027-02-22T10:20:00+03:00",
+      "companhia": "JJ",
+      "numero_voo": 3935
     }
   },
   "BR-CE": {
