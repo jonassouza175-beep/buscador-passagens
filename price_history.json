@@ -840,17 +840,18 @@
       928,
       955,
       846,
-      754
+      754,
+      731
     ],
     "menor_preco": 644,
-    "ultimo_preco": 754,
-    "ultima_atualizacao": "2026-11-20",
+    "ultimo_preco": 731,
+    "ultima_atualizacao": "2026-11-27",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2027-02-19T05:55:00-03:00",
-      "data_volta": "2027-02-20T03:40:00-03:00",
+      "data_ida": "2026-12-02T22:55:00-03:00",
+      "data_volta": "2026-12-08T05:00:00-03:00",
       "companhia": "G3",
-      "numero_voo": 1375
+      "numero_voo": 1898
     }
   },
   "BR-MS": {
@@ -863,11 +864,12 @@
       3402,
       2019,
       1249,
-      907
+      907,
+      951
     ],
     "menor_preco": 812,
-    "ultimo_preco": 907,
-    "ultima_atualizacao": "2026-11-20",
+    "ultimo_preco": 951,
+    "ultima_atualizacao": "2026-11-27",
     "ultima_oferta": {
       "origem": "SDU",
       "data_ida": "2027-06-15T19:55:00-03:00",
@@ -894,17 +896,18 @@
       1442,
       1263,
       1631,
-      1347
+      1347,
+      1883
     ],
     "menor_preco": 959,
-    "ultimo_preco": 1347,
-    "ultima_atualizacao": "2026-11-20",
+    "ultimo_preco": 1883,
+    "ultima_atualizacao": "2026-11-27",
     "ultima_oferta": {
-      "origem": "GIG",
-      "data_ida": "2027-03-17T20:55:00-03:00",
-      "data_volta": "2027-03-24T12:30:00-03:00",
-      "companhia": "AD",
-      "numero_voo": 4406
+      "origem": "SDU",
+      "data_ida": "2027-07-18T18:40:00-03:00",
+      "data_volta": "2027-07-31T05:20:00-03:00",
+      "companhia": "LA",
+      "numero_voo": 3915
     }
   },
   "BR-TO": {
@@ -1151,17 +1154,18 @@
       5932,
       4422,
       7139,
-      6329
+      6329,
+      6554
     ],
     "menor_preco": 4422,
-    "ultimo_preco": 6329,
-    "ultima_atualizacao": "2026-11-13",
+    "ultimo_preco": 6554,
+    "ultima_atualizacao": "2026-11-27",
     "ultima_oferta": {
       "origem": "GIG",
-      "data_ida": "2026-11-17T15:35:00-03:00",
-      "data_volta": "2026-12-12T15:25:00+01:00",
-      "companhia": "AZ",
-      "numero_voo": 673
+      "data_ida": "2027-05-11T23:00:00-03:00",
+      "data_volta": "2027-05-20T13:05:00+02:00",
+      "companhia": "TP",
+      "numero_voo": 67
     }
   },
   "EU-Estonia_Talin": {
